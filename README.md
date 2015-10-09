@@ -7,6 +7,7 @@ UnityID: ychen4
 Team: Onslow
 
 Studied paper: ICSE- 2011 "Automated Security Hardening for Evolving UML Models."
+
 ==================================================================================
 The tool UMLsec is developed for analysis UML models. And it is produced by Dr. Jan Jürjens.
 https://www-secse.cs.tu-dortmund.de/secse/pages/people/juerjens/index_de.shtml
