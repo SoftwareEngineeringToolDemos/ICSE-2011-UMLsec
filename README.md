@@ -27,11 +27,11 @@ This repository was constructed by [Yi-Chun Chen (RimiChen)](https://github.com/
 ==================================================================================
 This README document is created for CSC 510 Software engineering course, NCSU, 2015 fall.
 and by
-Name: Yi-Chun Chen
-UnityID: ychen4
-Team: Onslow
+* Name: Yi-Chun Chen
+* UnityID: ychen4
+* Team: Onslow
 
-Studied paper: ICSE- 2011 "Automated Security Hardening for Evolving UML Models."
+* Studied paper: ICSE- 2011 "Automated Security Hardening for Evolving UML Models."
 
 ==================================================================================
 
