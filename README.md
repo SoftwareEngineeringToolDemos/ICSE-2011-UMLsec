@@ -34,7 +34,7 @@ Copyright notice
 The source code is © by the members of the UMLsec tool group 2001-2014 and available under an open-source license. Please ask about availability under other agreements.
 
 
-In this repository, for ExampleTool you will find:
+In this repository, for UMLsec you will find:
 * :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec) (available)
 * :white_check_mark: [The original tool source code and binary](https://www-secse.cs.tu-dortmund.de/jj/umlsectool/current/) (available)
 * :white_check_mark: [Executable file (binary)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec/tree/master/Executable%20file) (available)
