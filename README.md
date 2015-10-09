@@ -39,7 +39,9 @@ In this repository, for ExampleTool you will find:
 * :white_check_mark: [The original tool source code and binary](https://www-secse.cs.tu-dortmund.de/jj/umlsectool/current/) (available)
 * :white_check_mark: [Executable file (binary)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec/tree/master/Executable%20file) (available)
 
-This repository was constructed by [Yi-Chun Chen (RimiChen)](https://github.com/RimiChen) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thank for all assistances from Dr. Jan Jürjens. He helped use to find the binary and the source of the tool. And, the tool's website contains clear user manuals which give use guides to use the tool.
+This repository was constructed by [Yi-Chun Chen (RimiChen)](https://github.com/RimiChen) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).
+
+Thank for all assistances from Dr. Jan Jürjens. He helped use to find the binary and the source of the tool. And, the tool's website contains clear user manuals which give use guides to use the tool.
 
 
 
