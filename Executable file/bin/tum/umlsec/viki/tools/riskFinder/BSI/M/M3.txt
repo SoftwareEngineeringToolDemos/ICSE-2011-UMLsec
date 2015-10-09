@@ -1,0 +1,139 @@
+M 3 Personal 
+
+M 3.1 Geregelte Einarbeitung/Einweisung neuer Mitarbeiter
+
+M 3.2 Verpflichtung der Mitarbeiter auf Einhaltung einschlägiger Gesetze, Vorschriften und Regelungen
+
+M 3.3 Vertretungsregelungen
+
+M 3.4 Schulung vor Programmnutzung
+
+M 3.5 Schulung zu Sicherheitsmaßnahmen
+
+M 3.6 Geregelte Verfahrensweise beim Ausscheiden von Mitarbeitern
+
+M 3.7 Anlaufstelle bei persönlichen Problemen
+
+M 3.8 Vermeidung von Störungen des Betriebsklimas
+
+M 3.9 Ergonomischer Arbeitsplatz
+
+M 3.10 Auswahl eines vertrauenswürdigen Administrators und Vertreters
+
+M 3.11 Schulung des Wartungs- und Administrationspersonals
+
+M 3.12 Information aller Mitarbeiter über mögliche TK-Warnanzeigen, -symbole und -töne
+
+M 3.13 Sensibilisierung der Mitarbeiter für mögliche TK-Gefährdungen
+
+M 3.14 Einweisung des Personals in den geregelten Ablauf der Informationsweitergabe und des Datenträgeraustausches
+
+M 3.15 Informationen für alle Mitarbeiter über die Faxnutzung
+
+M 3.16 Einweisung in die Bedienung des Anrufbeantworters
+
+M 3.17 Einweisung des Personals in die Modem-Benutzung
+
+M 3.18 Verpflichtung der Benutzer zum Abmelden nach Aufgabenerfüllung
+
+M 3.19 Einweisung in den richtigen Einsatz der Sicherheitsfunktionen von Peer-to-Peer-Diensten - entfallen
+
+M 3.20 Einweisung in die Bedienung von Schutzschränken
+
+M 3.21 Sicherheitstechnische Einweisung der Telearbeiter
+
+M 3.22 Vertretungsregelung für Telearbeit - entfallen
+
+M 3.23 Einführung in kryptographische Grundbegriffe
+
+M 3.24 Schulung zur Lotus Notes Systemarchitektur für Administratoren
+
+M 3.25 Schulung zu Lotus Notes Sicherheitsmechanismen für Benutzer
+
+M 3.26 Einweisung des Personals in den sicheren Umgang mit IT
+
+M 3.27 Schulung zur Active Directory-Verwaltung
+
+M 3.28 Schulung zu Sicherheitsmechanismen für Benutzer bei Windows Client-Betriebssystemen
+
+M 3.29 Schulung zur Administration von Novell eDirectory
+
+M 3.30 Schulung zum Einsatz von Novell eDirectory Clientsoftware
+
+M 3.31 Schulung zur Systemarchitektur und Sicherheit von Exchange 2000 für Administratoren
+
+M 3.32 Schulung zu Sicherheitsmechanismen von Outlook 2000 für Benutzer
+
+M 3.33 Sicherheitsüberprüfung von Mitarbeitern
+
+M 3.34 Einweisung in die Administration des Archivsystems
+
+M 3.35 Einweisung der Benutzer in die Bedienung des Archivsystems
+
+M 3.36 Schulung der Administratoren zur sicheren Installation und Konfiguration des IIS
+
+M 3.37 Schulung der Administratoren eines Apache-Webservers
+
+M 3.38 Administratorenschulung für Router und Switches
+
+M 3.39 Einführung in die zSeries-Plattform
+
+M 3.40 Einführung in das z/OS-Betriebssystem
+
+M 3.41 Einführung in Linux und z/VM für zSeries-Systeme
+
+M 3.42 Schulung des z/OS-Bedienungspersonals
+
+M 3.43 Schulung der Administratoren des Sicherheitsgateways
+
+M 3.44 Sensibilisierung des Managements für Informationssicherheit
+
+M 3.45 Planung von Schulungsinhalten zur Informationssicherheit
+
+M 3.46 Ansprechpartner zu Sicherheitsfragen
+
+M 3.47 Durchführung von Planspielen zur Informationssicherheit
+
+M 3.48 Auswahl von Trainern oder Schulungsanbietern
+
+M 3.49 Schulung zur Vorgehensweise nach IT-Grundschutz
+
+M 3.50 Auswahl von Personal
+
+M 3.51 Geeignetes Konzept für Personaleinsatz und -qualifizierung
+
+M 3.52 Schulung zu SAP Systemen
+
+M 3.53 Einführung in SAP Systeme
+
+M 3.54 Schulung der Administratoren des Speichersystems
+
+M 3.55 Vertraulichkeitsvereinbarungen
+
+M 3.56 Schulung der Administratoren fï¿½r die Nutzung von VoIP
+
+M 3.57 Szenarien für den Einsatz von VoIP
+
+M 3.58 Einführung in WLAN-Grundbegriffe
+
+M 3.59 Schulung zum sicheren WLAN-Einsatz
+
+M 3.60 Sensibilisierung der Mitarbeiter zum sicheren Umgang mit mobilen Datenträgern und Geräten
+
+M 3.61 Einführung in Verzeichnisdienst-Grundlagen
+
+M 3.62 Schulung zur Administration von Verzeichnisdiensten
+
+M 3.63 Schulung der Benutzer zur Authentisierung mit Hilfe von Verzeichnisdiensten
+
+M 3.64 Einführung in Active Directory
+
+M 3.65 Einführung in VPN-Grundbegriffe
+
+M 3.66 Grundbegriffe des Patch- und Änderungsmanagements
+
+M 3.67 Einweisung aller Mitarbeiter über Methoden zur Löschung oder Vernichtung von Daten
+
+M 3.68 Schulung der Administratoren eines Samba-Servers
+
+M 3.69 Einführung in die Bedrohung durch Schadprogramme

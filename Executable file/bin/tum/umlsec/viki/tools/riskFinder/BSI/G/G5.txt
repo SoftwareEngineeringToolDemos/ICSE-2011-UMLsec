@@ -1,0 +1,293 @@
+G 5 Vorsätzliche Handlungen 
+
+G 5.1 Manipulation oder Zerstörung von Geräten oder Zubehör
+
+G 5.2 Manipulation an Informationen oder Software
+
+G 5.3 Unbefugtes Eindringen in ein Gebäude
+
+G 5.4 Diebstahl
+
+G 5.5 Vandalismus
+
+G 5.6 Anschlag
+
+G 5.7 Abhören von Leitungen
+
+G 5.8 Manipulation an Leitungen
+
+G 5.9 Unberechtigte IT-Nutzung
+
+G 5.10 Missbrauch von Fernwartungszugängen
+
+G 5.11 Vertraulichkeitsverlust in TK-Anlagen gespeicherter Daten
+
+G 5.12 Abhören von Telefongesprächen und Datenübertragungen
+
+G 5.13 Abhören von Räumen
+
+G 5.14 Gebührenbetrug
+
+G 5.15 Neugierige Mitarbeiter
+
+G 5.16 Manipulation bei Wartungsarbeiten
+
+G 5.17 Gefährdung bei Wartungsarbeiten durch externes Personal - entfallen
+
+G 5.18 Systematisches Ausprobieren von Passwörtern
+
+G 5.19 Missbrauch von Benutzerrechten
+
+G 5.20 Missbrauch von Administratorrechten
+
+G 5.21 Trojanische Pferde
+
+G 5.22 Diebstahl bei mobiler Nutzung des IT-Systems
+
+G 5.23 Schadprogramme
+
+G 5.24 Wiedereinspielen von Nachrichten
+
+G 5.25 Maskerade
+
+G 5.26 Analyse des Nachrichtenflusses
+
+G 5.27 Nichtanerkennung einer Nachricht
+
+G 5.28 Verhinderung von Diensten
+
+G 5.29 Unberechtigtes Kopieren der Datenträger
+
+G 5.30 Unbefugte Nutzung eines Faxgerätes oder eines Faxservers
+
+G 5.31 Unbefugtes Lesen von Faxsendungen
+
+G 5.32 Auswertung von Restinformationen in Faxgeräten und Faxservern
+
+G 5.33 Vortäuschen eines falschen Absenders bei Faxsendungen
+
+G 5.34 Absichtliches Umprogrammieren der Zieltasten eines Faxgerätes
+
+G 5.35 Überlastung durch Faxsendungen
+
+G 5.36 Absichtliche Überlastung des Anrufbeantworters
+
+G 5.37 Ermitteln des Sicherungscodes
+
+G 5.38 Missbrauch der Fernabfrage
+
+G 5.39 Eindringen in Rechnersysteme über Kommunikationskarten
+
+G 5.40 Abhören von Räumen mittels Rechner mit Mikrofon
+
+G 5.41 Mißbräuchliche Nutzung eines Unix-Systems mit Hilfe von uucp
+
+G 5.42 Social Engineering
+
+G 5.43 Makro-Viren
+
+G 5.44 Missbrauch von Remote-Zugängen für Managementfunktionen von TK-Anlagen
+
+G 5.45 Ausprobieren von Passwörtern unter WfW und Windows 95 - entfallen
+
+G 5.46 Maskerade unter WfW - entfallen
+
+G 5.47 Löschen des Post-Office unter WfW - entfallen
+
+G 5.48 IP-Spoofing
+
+G 5.49 Missbrauch des Source-Routing
+
+G 5.50 Missbrauch des ICMP-Protokolls
+
+G 5.51 Missbrauch der Routing-Protokolle
+
+G 5.52 Missbrauch von Administratorrechten bei Windows-Betriebssystemen
+
+G 5.53 Bewusste Fehlbedienung von Schutzschränken aus Bequemlichkeit
+
+G 5.54 Vorsätzliches Herbeiführen eines Abnormal End - entfallen
+
+G 5.55 Login Bypass
+
+G 5.56 Temporär frei zugängliche Accounts
+
+G 5.57 Netzanalyse-Tools
+
+G 5.58 Hacking Novell Netware
+
+G 5.59 Missbrauch von Administratorrechten unter Novell Netware Servern
+
+G 5.60 Umgehen der Systemrichtlinien - entfallen
+
+G 5.61 Missbrauch von Remote-Zugängen für Managementfunktionen von Routern
+
+G 5.62 Missbrauch von Ressourcen über abgesetzte IT-Systeme - entfallen
+
+G 5.63 Manipulationen über den ISDN-D-Kanal
+
+G 5.64 Manipulation an Daten oder Software bei Datenbanksystemen
+
+G 5.65 Verhinderung der Dienste eines Datenbanksystems
+
+G 5.66 Unberechtigter Anschluss von IT-Systemen an ein Netz
+
+G 5.67 Unberechtigte Ausführung von Netzmanagement-Funktionen
+
+G 5.68 Unberechtigter Zugang zu den aktiven Netzkomponenten
+
+G 5.69 Erhöhte Diebstahlgefahr am häuslichen Arbeitsplatz
+
+G 5.70 Manipulation durch Familienangehörige und Besucher
+
+G 5.71 Vertraulichkeitsverlust schützenswerter Informationen
+
+G 5.72 Mißbräuchliche E-Mail-Nutzung
+
+G 5.73 Vortäuschen eines falschen Absenders
+
+G 5.74 Manipulation von Alias-Dateien oder Verteilerlisten
+
+G 5.75 Überlastung durch eingehende E-Mails
+
+G 5.76 Mailbomben
+
+G 5.77 Mitlesen von E-Mails
+
+G 5.78 DNS-Spoofing und Pharming
+
+G 5.79 Unberechtigtes Erlangen von Administratorrechten unter Windows-Systemen
+
+G 5.80 Hoax
+
+G 5.81 Unautorisierte Benutzung eines Kryptomoduls
+
+G 5.82 Manipulation eines Kryptomoduls
+
+G 5.83 Kompromittierung kryptographischer Schlüssel
+
+G 5.84 Gefälschte Zertifikate
+
+G 5.85 Integritätsverlust schützenswerter Informationen
+
+G 5.86 Manipulation von Managementparametern
+
+G 5.87 Web-Spoofing
+
+G 5.88 Missbrauch aktiver Inhalte
+
+G 5.89 Hijacking von Netz-Verbindungen
+
+G 5.90 Manipulation von Adressbüchern und Verteillisten
+
+G 5.91 Abschalten von Sicherheitsmechanismen für den RAS-Zugang - entfallen
+
+G 5.92 Nutzung des VPN-Clients als VPN-Server
+
+G 5.93 Erlauben von Fremdnutzung von VPN-Komponenten
+
+G 5.94 Kartenmissbrauch
+
+G 5.95 Abhören von Raumgesprächen über Mobiltelefone
+
+G 5.96 Manipulation von Mobiltelefonen
+
+G 5.97 Unberechtigte Datenweitergabe über Mobiltelefone
+
+G 5.98 Abhören von Mobiltelefonaten
+
+G 5.99 Auswertung von Verbindungsdaten bei der Nutzung von Mobiltelefonen
+
+G 5.100 Missbrauch aktiver Inhalte beim Zugriff auf Lotus Notes
+
+G 5.101 Hacking Lotus Notes
+
+G 5.102 Sabotage
+
+G 5.103 Missbrauch von Webmail
+
+G 5.104 Ausspähen von Informationen
+
+G 5.105 Verhinderung der Dienste von Archivsystemen
+
+G 5.106 Unberechtigtes Überschreiben oder Löschen von Archivmedien
+
+G 5.107 Weitergabe von Daten an Dritte durch den Outsourcing-Dienstleister
+
+G 5.108 Ausnutzen von systemspezifischen Schwachstellen des IIS
+
+G 5.109 Ausnutzen systemspezifischer Schwachstellen beim Apache-Webserver
+
+G 5.110 Web-Bugs
+
+G 5.111 Missbrauch aktiver Inhalte in E-Mails
+
+G 5.112 Manipulation von ARP-Tabellen
+
+G 5.113 MAC-Spoofing
+
+G 5.114 Missbrauch von Spanning Tree
+
+G 5.115 Überwindung der Grenzen zwischen VLANs
+
+G 5.116 Manipulation der z/OS-Systemsteuerung
+
+G 5.117 Verschleiern von Manipulationen unter z/OS
+
+G 5.118 Unbefugtes Erlangen höherer Rechte im RACF
+
+G 5.119 Benutzung fremder Kennungen unter z/OS-Systemen
+
+G 5.120 Manipulation der Linux/zSeries Systemsteuerung
+
+G 5.121 Angriffe über TCP/IP auf z/OS-Systeme
+
+G 5.122 Missbrauch von RACF-Attributen unter z/OS
+
+G 5.123 Abhören von Raumgesprächen über mobile Endgeräte
+
+G 5.124 Missbrauch der Informationen von mobilen Endgeräten
+
+G 5.125 Unberechtigte Datenweitergabe über mobile Endgeräte
+
+G 5.126 Unberechtigte Foto- und Filmaufnahmen mit mobilen Endgeräten
+
+G 5.127 Spyware
+
+G 5.128 Unberechtigter Zugriff auf Daten durch Einbringen von Code in ein SAP System
+
+G 5.129 Manipulation von Daten über das Speichersystem
+
+G 5.130 Manipulation der Konfiguration des Speichersystems
+
+G 5.131 SQL-Injection
+
+G 5.132 Kompromittierung einer RDP-Benutzersitzung unter Windows Server 2003
+
+G 5.133 Unautorisierte Benutzung web-basierter Administrationswerkzeuge
+
+G 5.134 Fehlende Identifizierung zwischen Gesprächsteilnehmern
+
+G 5.135 SPIT und Vishing
+
+G 5.136 Missbrauch frei zugänglicher Telefonanschlüsse
+
+G 5.137 Auswertung von Verbindungsdaten bei der drahtlosen Kommunikation
+
+G 5.138 Angriffe auf WLAN-Komponenten
+
+G 5.139 Abhören der WLAN-Kommunikation
+
+G 5.140 Auswertung von Restinformationen in Druckern, Kopierern und Multifunktionsgeräten
+
+G 5.141 Datendiebstahl über mobile Datenträger
+
+G 5.142 Verbreitung von Schadprogrammen über mobile Datenträger
+
+G 5.143 Man-in-the-Middle-Angriff
+
+G 5.144 Kompromittierung von Verzeichnisdiensten durch unbefugten Zugriff
+
+G 5.145 Manipulation von Daten und Werkzeugen beim Patch- und Änderungsmanagement
+
+G 5.146 Vertraulichkeitsverlust durch Auslagerungsdateien

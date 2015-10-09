@@ -1,0 +1,165 @@
+package tum.umlsec.viki.tools.dynaviki.model.scanner;
+
+
+/* Preliminaries to set up and use the scanner.  */
+/*
+init with {: scanner.init();              :};
+scan with {: return scanner.next_token(); :};
+*/
+
+
+parser code {:
+
+	public void unrecovered_syntax_error(java_cup.runtime.Symbol cur_token) {
+		throw new tum.umlsec.viki.tools.dynaviki.model.ExceptionScannerSyntaxError("Unrecovered Syntax Error");
+	}
+
+	public void syntax_error(java_cup.runtime.Symbol cur_token) {
+		throw new tum.umlsec.viki.tools.dynaviki.model.ExceptionScannerSyntaxError("Syntax Error");
+	}
+
+
+:};
+
+
+
+
+
+/* Terminals (tokens returned by the scanner). */
+terminal		APPLYKEY, THIS, SENDEROF, PUBLICKEYOF, SECRETKEYOF, SYMMETRICKEYOF, NONCEOF;
+terminal String		IDENTIFIER;
+terminal Integer	INTNUMBER;
+terminal 		ASSIGN, EQUAL, NOTEQUAL, OPCALL, COMMA;
+terminal		LPAR, RPAR;
+terminal		LPARSQUARE, RPARSQUARE;
+terminal		CONCAT;
+terminal		ELSE;
+
+
+/* Non terminals */
+non terminal            toplevel;
+non terminal            expr;
+non terminal            guard;
+non terminal            effect;
+non terminal 		functioncall; 
+non terminal 		assignment;
+non terminal		paramlist;
+non terminal 		compareop;
+
+
+
+
+
+
+/* Precedences */
+precedence right COMMA;
+precedence right APPLYKEY, SENDEROF, PUBLICKEYOF, NONCEOF;
+precedence left ASSIGN, EQUAL, NOTEQUAL;
+precedence left CONCAT;
+
+
+
+
+/* The grammar */
+
+
+
+toplevel	::=	guard: g1
+				{: RESULT = g1; :}
+			|
+			effect: e1
+				{: RESULT = e1; :}
+			|
+			expr: e1
+				{: RESULT = e1; :}
+			;
+			
+			
+effect		::=	functioncall: fc1
+				{: RESULT = fc1; :}
+			|
+			assignment: a1
+				{: RESULT = a1; :}
+			|
+			effect: e1 COMMA effect: e2
+				{: RESULT = new USE_EffectList((USE_EffectBase)e1, (USE_EffectBase)e2); :}
+			;
+				
+						
+guard		::=	expr: e1 compareop: co1 expr: e2 
+				{: RESULT = new USE_Guard((USE_RTerm)e1, (USE_CompareOperator)co1, (USE_RTerm)e2); :}
+			|
+			ELSE
+				{: RESULT = new USE_GuardElse(); :}
+			;
+			
+			
+compareop	::=	EQUAL
+				{: RESULT = new USE_CompareOperatorEqual(); :}
+			|
+			NOTEQUAL
+				{: RESULT = new USE_CompareOperatorNotEqual(); :}
+			;
+
+						
+functioncall	::=	expr: ct1 OPCALL IDENTIFIER: i1 LPAR paramlist: pl1 RPAR
+				{: RESULT = new USE_FunctionCall((USE_RTerm)ct1, (String)i1, (USE_ParameterList)pl1); :}
+			;
+								
+						
+paramlist	::=	
+				{: RESULT = null; :}
+			|
+			expr: e1
+				{: RESULT = new USE_ParameterListEnd((USE_RTerm)e1); :}
+			|
+			expr: e1 COMMA paramlist: pl1
+				{: RESULT = new USE_ParameterListCont((USE_RTerm)e1, (USE_ParameterList)pl1); :}
+			;
+
+
+assignment	::=	IDENTIFIER: i1 ASSIGN expr: e1
+				{: RESULT = new USE_Assignment(new USE_Variable(i1), (USE_RTerm)e1); :}
+			;
+
+
+expr		::=	LPAR expr: e1 RPAR					
+				{: RESULT = e1; :}
+			|
+			expr: e1 CONCAT expr: e2					
+				{: RESULT = new USE_Concatenation((USE_RTerm)e1, (USE_RTerm)e2); :}
+			|
+			expr: e1 LPARSQUARE INTNUMBER: i1 RPARSQUARE
+				{: RESULT = new USE_Select((USE_RTerm)e1, i1.intValue()); :}
+			|
+			IDENTIFIER: i1					
+				{: RESULT = new USE_Variable(i1); :}
+			|
+			THIS					
+				{: RESULT = new USE_This(); :}
+			|
+			APPLYKEY LPAR expr: e1 COMMA expr: e2 RPAR	
+				{: RESULT = new USE_ApplyKey((USE_RTerm)e1, (USE_RTerm)e2); :}
+			|
+			SENDEROF LPAR IDENTIFIER: i1 RPAR
+				{: RESULT = new USE_SenderOf(new USE_Variable(i1)); :}
+			|
+			PUBLICKEYOF LPAR expr: e1 RPAR
+				{: RESULT = new USE_PublicKeyOf((USE_RTerm) e1); :}
+			|
+			SECRETKEYOF LPAR expr: e1 RPAR
+				{: RESULT = new USE_SecretKeyOf((USE_RTerm) e1); :}
+			|
+			SYMMETRICKEYOF LPAR expr: e1 RPAR
+				{: RESULT = new USE_SymmetricKeyOf((USE_RTerm) e1); :}
+			|
+			NONCEOF LPAR expr: e1 RPAR
+				{: RESULT = new USE_NonceOf((USE_RTerm) e1); :}
+			;
+
+
+
+
+
+
+

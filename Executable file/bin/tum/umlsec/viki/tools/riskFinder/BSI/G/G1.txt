@@ -1,0 +1,20 @@
+G 1 Höhere Gewalt 
+G 1.1 Personalausfall
+G 1.2 Ausfall von IT-Systemen
+G 1.3 Blitz
+G 1.4 Feuer
+G 1.5 Wasser
+G 1.6 Kabelbrand
+G 1.7 Unzulässige Temperatur und Luftfeuchte
+G 1.8 Staub, Verschmutzung
+G 1.9 Datenverlust durch starke Magnetfelder
+G 1.10 Ausfall eines Weitverkehrsnetzes
+G 1.11 Technische Katastrophen im Umfeld
+G 1.12 Beeinträchtigung durch Großveranstaltungen
+G 1.13 Sturm
+G 1.14 Datenverlust durch starkes Licht
+G 1.15 Beeinträchtigung durch wechselnde Einsatzumgebung
+G 1.16 Ausfall von Patchfeldern durch Brand
+G 1.17 Ausfall oder Störung eines Funknetzes
+G 1.18 Ausfall eines Gebäudes
+G 1.19 Ausfall eines Dienstleisters oder Zulieferers

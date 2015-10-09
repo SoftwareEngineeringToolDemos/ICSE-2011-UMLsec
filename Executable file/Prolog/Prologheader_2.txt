@@ -1,0 +1,209 @@
+%----------------------------------------------------------------
+%      ----Generated from UMLsec Tool Statechart2Prolog----      
+%----------------------------------------------------------------
+
+
+%------------------------ Attacker Code -------------------------
+
+
+:- dynamic tkn/3.
+:- dynamic kn/3.
+:- dynamic received_msg/2.
+:- dynamic var/2.
+
+
+belege(Var,Wert) :- (retract(var(Var,_)); true), assert(var(Var,Wert)),!.
+
+kn(inv(Key),1,I) :- symkey(Key), knows(Key,1,I).
+
+kn(hash(X),N,I) :-
+	N > 1, Nminus1 is N - 1, knows(X,Nminus1,I).
+
+kn([X,Y],N,I) :-
+	N > 1,
+	depth(Y,B), A is N - B,
+	knows(Y,B,I), knows(X,A,I).
+
+kn(enc(X,Y),N,I) :-
+	N > 1,
+	(symkey(Y); key(Y)),
+	Nmin1 is N - 1,
+	knows(Y,1,I), knows(X,Nmin1,I).
+
+kn(sign(X,inv(Y)),N,I) :-
+	N > 1,
+	key(Y),
+	Nmin1 is N - 1,
+	knows(inv(Y),1,I), knows(X,Nmin1,I).
+
+kn(sign(X,Y),N,I) :-
+	N > 1,
+	symkey(Y),
+	Nmin1 is N - 1,
+	knows(Y,1,I), knows(X,Nmin1,I).
+
+knows(X,I) :- depth(X,N), knows(X,N,I).
+
+knows(T,N,I) :- tkn(T,N,I); kn(T,N,I).
+
+%knows(T,N,I) :- clause(knowsp(_,_,_),_,_), knowsp(T,N,I).
+
+msg(Term,Step) :- msg(Term,_,Step).
+
+run(Fst,Last) :-
+	Fst < Last,
+	(sendmsgs(Fst);( FPlus1 is Fst + 1,
+	clone_knowledge(Fst, FPlus1), run(FPlus1,Last))),fail.
+	run(Last,Last) :-
+	sendmsgs(Last).
+	run(_,_).
+
+
+sendmsgs(I) :-
+	msg(T,I),
+	sendmsg(T,I),fail.
+
+sendmsgs(_).
+
+sendmsg(T,I) :-
+	depth(T,N), (received_msg(T,I); assert(received_msg(T,I))),
+	not(kn(T,N,I)),
+	asserta(tkn(T,N,I)),
+	recoverNewData(I).
+
+sendmsg(_,_).
+
+recoverNewData(I) :-
+	tkn(T,N,I), breakTerm(T,N,I).
+
+recoverNewData(_).
+
+breakTerm(T,N,I) :-
+	kn(T,N,I), retract(tkn(T,N,I)),!.
+
+breakTerm(T,N,I) :-
+	atom(T),retract(tkn(T,N,I)),
+	assert(kn(T,N,I)),!,
+	recoverNewData(I).
+
+breakTerm(inv(T),N,I):-
+	atom(T),retract(tkn(inv(T),N,I)),assert(kn(inv(T),N,I)),!,
+	recoverNewData(I).
+
+breakTerm([X,Y],N,I) :-
+	retract(tkn([X,Y],N,I)), depth(X,A), B is N - A,
+	((not(kn(Y,B,I)),assert(tkn(Y,B,I)),breakTerm(Y,B,I));
+	(not(kn(X,A,I)),assert(tkn(X,A,I)),breakTerm(X,A,I),fail)).
+
+breakTerm(enc(X,K),N,I) :-
+	Nmin1 is N - 1, not(kn(X,Nmin1,I)),
+	kn(inv(K),1,I),assert(tkn(X,Nmin1,I)),
+	((kn(K,1,I), retract(tkn(enc(X,K),N,I)), fail);
+	breakTerm(X,Nmin1,I)).
+
+breakTerm(sign(X,inv(K)),N,I) :-
+	Nmin1 is N - 1,
+	not(kn(X,Nmin1,I)),
+	kn(K,1,I), assert(tkn(X,Nmin1,I)),
+	((kn(inv(K),1,I),retract(tkn(sign(X,inv(K)),N,I)),fail);
+	breakTerm(X,Nmin1,I)).
+
+breakTerm(sign(X,K),N,I) :-
+	symkey(K),
+	Nmin1 is N - 1,
+	not(kn(X,Nmin1,I)),
+	kn(K,1,I), assert(tkn(X,Nmin1,I)),
+	retract(tkn(sign(X,K),N,I)),
+	breakTerm(X,Nmin1,I).
+
+breakTerm(hash(T),N) :-
+	Nmin1 is N - 1, not(kn(hash(T),N,I)),
+	retract(tkn(hash(T),N,I)),assert(tkn(T,Nmin1,I)),
+	breakTerm(T,Nmin1,I).
+
+breakTerm(_,_).
+
+% Berechnet die Tiefe eines Terms ohne Variablen
+
+depth(X,1) :- var(X), !.
+depth(X,1) :- atom(X), !.
+depth(inv(X),1) :- atom(X), !.
+depth(hash([X,Y]),N) :- depth(X,A), depth(Y,B), N is A + B + 1, !.
+depth([X,Y], N) :- depth(X,A), depth(Y,B), N is A + B, !.
+depth(enc(X,_), N) :- depth(X,A), N is A + 1, !.
+depth(sign(X,_), N) :- depth(X,A), N is A + 1, !.
+%depth(symenc(X,Y), N) :- depth(X,A), depth(Y,B), N is A + B.
+%depth(symsign(X,Y), N) :- depth(X,A), depth(Y,B), N is A + B.
+%depth([],0).
+
+clone_knowledge(From, To) :-
+	kn(T,1,From), not(kn(T,1,To)), assert(kn(T,1,To)),fail.
+
+clone_knowledge(From, To) :-
+	tkn(T,Length,From), not(tkn(T,Length,To)), assert(tkn(T,Length,To)),fail.
+
+clone_knowledge(_,_).
+
+
+clear_knowledge(From, To) :- To >= From,
+	retract(kn(_, 1, From)),fail.
+clear_knowledge(From, To) :- To >= From,
+	retract(tkn(_, _, From)), fail.
+clear_knowledge(From, To) :- To >= From,
+	retract(received_msg(_,From)), fail.
+clear_knowledge(From, To) :- To >= From,
+	FromPlus1 is From + 1,
+	clear_knowledge(FromPlus1, To).
+clear_knowledge(_,_).
+
+
+attac_depth(List) :- range(From,To), depth_search(goal, From, To, List).
+
+depth_search(Goal,To,To,[[Msg,Condition]]) :-
+	ToMin1 is To - 1,
+	msg(Msg,Condition,To),
+	clear_knowledge(To,To),
+	clone_knowledge(ToMin1,To),
+	sendmsg(Msg,To),
+	call(Goal),!.
+
+depth_search(Goal,From,To,[[Msg,Condition]|ResultList]) :-
+	To > From, FromMin1 is From - 1, FromPlus1 is From + 1,
+	msg(Msg, Condition, From),
+	((clear_knowledge(From,FromPlus1),
+	clone_knowledge(FromMin1, From),
+	sendmsg(Msg,From),
+	clone_knowledge(From, FromPlus1),
+	depth_search(Goal,FromPlus1,To,ResultList));
+	(clear_knowledge(From,FromPlus1),fail)).
+
+output_depth :- attac_depth(L),output(L).
+output_breadth :- attac_breadth(L),output(L).
+
+output([]).
+output([[Rec|[Sent]]|Rest]) :-
+write('\n     Sent: '), write(Sent),
+write('\n Received: '), write(Rec),
+output(Rest).
+output1([]).
+output1([T|Ts]) :- write('\n '), write(T), output(Ts).
+
+attac_breadth(List) :- range(From,To), breadth_search(goal, From, To, List).
+
+breadth_search(Goal,To,To,[[Msg,Condition]]) :-
+	depth_search(Goal,To,To,[[Msg,Condition]]).
+breadth_search(Goal,From,To,[[Msg,Condition]|ResultList]) :-
+	To > From, FromMin1 is From - 1, FromPlus1 is From + 1,
+	msg(Msg, Condition, From),
+	clear_knowledge(From, To),
+	clone_knowledge(FromMin1, From),
+	sendmsg(Msg,From),
+	clone_knowledge(From, FromPlus1),
+	((goal_reached(Goal, FromPlus1, To),!,
+	breadth_search(Goal,FromPlus1,To,ResultList));
+	(clear_knowledge(From,To),fail)).
+
+goal_reached(Goal, From, To) :-
+run(From, To), call(Goal).
+
+%%%%%%%%%%%%%%%%%%% End of generator code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

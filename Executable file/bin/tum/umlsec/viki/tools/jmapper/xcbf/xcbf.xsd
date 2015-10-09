@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>
+			this document is a xml schema for the secure exchange of biometric informations based on the 
+			XML Common Biometric Format (http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xcbf)
+		
+			in this version elements which type should be hexBinary is set to string, because org.apache.soap.encodings.Hex
+			returns a string which represents the hex value, an therefore type problems in the generated java objects occur because 
+			castor mapps hexBinary to byte Array.
+		</xs:documentation>
+	</xs:annotation>
+	<!--<xs:element name="BiometricSyntaxSets">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="biometricObjects"/>
+				<xs:element ref="integrityObjects"/>
+				<xs:element ref="privacyObjects"/>
+				<xs:element ref="privacyAndIntegrityObjects"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>-->
+	<xs:element name="biometricObjects">
+		<xs:complexType>
+			<xs:annotation>
+				<xs:documentation>
+					a set of unprotected biometric values
+				</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element ref="BiometricObject" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BiometricObject">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="biometricHeader"/>
+				<!--<xs:element name="biometricData" type="xs:hexBinary"/>-->
+				<xs:element name="biometricData" type="xs:string">
+				<xs:annotation>
+						<xs:documentation>
+							Contains data of type xs:hexBinary
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="biometricHeader">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="version" type="xs:int" default="0"/>
+				<xs:element name="recordType" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="id" type="xs:int"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dataType" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="raw"/>
+							<xs:enumeration value="intermediate"/>
+							<xs:enumeration value="processed"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="purpose" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="verify"/>
+							<xs:enumeration value="identify"/>
+							<xs:enumeration value="enroll"/>
+							<xs:enumeration value="enrollVerify"/>
+							<xs:enumeration value="enrollIdentify"/>
+							<xs:enumeration value="audit"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="quality" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:minInclusive value="-2"/>
+							<xs:maxInclusive value="100"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="validityPeriod" minOccurs="0">
+					<xs:complexType>
+						<xs:annotation>
+							<xs:documentation>
+								at least one component is present
+							</xs:documentation>
+						</xs:annotation>
+						<xs:sequence>
+							<xs:element name="notBefore" type="xs:dateTime" minOccurs="0"/>
+							<xs:element name="notAfter" type="xs:dateTime" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="format" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="formatOwner">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="oid" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:any minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
