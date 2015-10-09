@@ -1,0 +1,197 @@
+G 3 Menschliche Fehlhandlungen 
+
+G 3.1 Vertraulichkeits- oder Integritätsverlust von Daten durch Fehlverhalten
+
+G 3.2 Fahrlässige Zerstörung von Gerät oder Daten
+
+G 3.3 Nichtbeachtung von Sicherheitsmaßnahmen
+
+G 3.4 Unzulässige Kabelverbindungen
+
+G 3.5 Unbeabsichtigte Leitungsbeschädigung
+
+G 3.6 Gefährdung durch Reinigungs- oder Fremdpersonal
+
+G 3.7 Ausfall der TK-Anlage durch Fehlbedienung
+
+G 3.8 Fehlerhafte Nutzung von IT-Systemen
+
+G 3.9 Fehlerhafte Administration von IT-Systemen
+
+G 3.10 Falsches Exportieren von Dateisystemen unter Unix
+
+G 3.11 Fehlerhafte Konfiguration von sendmail
+
+G 3.12 Verlust der Datenträger beim Versand
+
+G 3.13 Weitergabe falscher oder interner Informationen
+
+G 3.14 Fehleinschätzung der Rechtsverbindlichkeit eines Fax
+
+G 3.15 Fehlbedienung eines Anrufbeantworters
+
+G 3.16 Fehlerhafte Administration von Zugangs- und Zugriffsrechten
+
+G 3.17 Kein ordnungsgemäßer PC-Benutzerwechsel
+
+G 3.18 Freigabe von Verzeichnissen, Druckern oder der Ablagemappe - entfallen
+
+G 3.19 Speichern von Passwörtern unter WfW und Windows 95 - entfallen
+
+G 3.20 Ungewollte Freigabe des Leserechtes bei Schedule+ - entfallen
+
+G 3.21 Fehlbedienung von Codeschlössern
+
+G 3.22 Fehlerhafte Änderung der Registrierung
+
+G 3.23 Fehlerhafte Administration eines DBMS
+
+G 3.24 Unbeabsichtigte Datenmanipulation
+
+G 3.25 Fahrlässiges Löschen von Objekten
+
+G 3.26 Ungewollte Freigabe des Dateisystems
+
+G 3.27 Fehlerhafte Zeitsynchronisation
+
+G 3.28 Ungeeignete Konfiguration der aktiven Netzkomponenten
+
+G 3.29 Fehlende oder ungeeignete Segmentierung
+
+G 3.30 Unerlaubte private Nutzung des dienstlichen Telearbeitsrechners
+
+G 3.31 Unstrukturierte Datenhaltung
+
+G 3.32 Verstoß gegen rechtliche Rahmenbedingungen beim Einsatz von kryptographischen Verfahren
+
+G 3.33 Fehlbedienung von Kryptomodulen
+
+G 3.34 Ungeeignete Konfiguration des Managementsystems
+
+G 3.35 Server im laufenden Betrieb ausschalten
+
+G 3.36 Fehlinterpretation von Ereignissen
+
+G 3.37 Unproduktive Suchzeiten
+
+G 3.38 Konfigurations- und Bedienungsfehler
+
+G 3.39 Fehlerhafte Administration des RAS-Systems - entfallen
+
+G 3.40 Ungeeignete Nutzung von Authentisierungsdiensten bei VPNs
+
+G 3.41 Fehlverhalten bei der Nutzung von VPN-Diensten
+
+G 3.42 Unsichere Konfiguration der VPN-Clients für den Fernzugriff
+
+G 3.43 Ungeeigneter Umgang mit Passwörtern
+
+G 3.44 Sorglosigkeit im Umgang mit Informationen
+
+G 3.45 Unzureichende Identifikationsprüfung von Kommunikationspartnern
+
+G 3.46 Fehlerhafte Konfiguration eines Lotus Notes Servers
+
+G 3.47 Fehlerhafte Konfiguration des Browser-Zugriffs auf Lotus Notes
+
+G 3.48 Fehlerhafte Konfiguration von Windows basierten IT-Systemen
+
+G 3.49 Fehlerhafte Konfiguration des Active Directory
+
+G 3.50 Fehlerhafte Konfiguration von Novell eDirectory
+
+G 3.51 Falsche Vergabe von Zugriffsrechten im Novell eDirectory
+
+G 3.52 Fehlerhafte Konfiguration des Intranet-Clientzugriffs auf Novell eDirectory
+
+G 3.53 Fehlerhafte Konfiguration des LDAP-Zugriffs auf Novell eDirectory
+
+G 3.54 Verwendung ungeeigneter Datenträger bei der Archivierung
+
+G 3.55 Verstoß gegen rechtliche Rahmenbedingungen beim Einsatz von Archivsystemen
+
+G 3.56 Fehlerhafte Einbindung des IIS in die Systemumgebung
+
+G 3.57 Fehlerhafte Konfiguration des Betriebssystems für den IIS
+
+G 3.58 Fehlerhafte Konfiguration eines IIS
+
+G 3.59 Unzureichende Kenntnisse über aktuelle Sicherheitslücken und Prüfwerkzeuge für den IIS
+
+G 3.60 Fehlerhafte Konfiguration von Exchange 2000 Servern
+
+G 3.61 Fehlerhafte Konfiguration von Outlook 2000 Clients
+
+G 3.62 Fehlerhafte Konfiguration des Betriebssystems für einen Apache-Webserver
+
+G 3.63 Fehlerhafte Konfiguration eines Apache-Webservers
+
+G 3.64 Fehlerhafte Konfiguration von Routern und Switches
+
+G 3.65 Fehlerhafte Administration von Routern und Switches
+
+G 3.66 Fehlerhafte Zeichensatzkonvertierung beim Einsatz von z/OS
+
+G 3.67 Unzureichende oder fehlerhafte Konfiguration des z/OS-Betriebssystems
+
+G 3.68 Unzureichende oder fehlerhafte Konfiguration des z/OS-Webservers
+
+G 3.69 Fehlerhafte Konfiguration der Unix System Services unter z/OS
+
+G 3.70 Unzureichender Dateischutz des z/OS-Systems
+
+G 3.71 Fehlerhafte Systemzeit bei z/OS-Systemen
+
+G 3.72 Fehlerhafte Konfiguration des z/OS-Sicherheitssystems RACF
+
+G 3.73 Fehlbedienung der z/OS-Systemfunktionen
+
+G 3.74 Unzureichender Schutz der z/OS-Systemeinstellungen vor dynamischen Änderungen
+
+G 3.75 Mangelhafte Kontrolle der Batch-Jobs bei z/OS
+
+G 3.76 Fehler bei der Synchronisation mobiler Endgeräte
+
+G 3.77 Mangelhafte Akzeptanz von Informationssicherheit
+
+G 3.78 Fliegende Verkabelung
+
+G 3.79 Fehlerhafte Zuordnung von Ressourcen des SAN
+
+G 3.80 Fehler bei der Synchronisation von Datenbanken
+
+G 3.81 Unsachgemäßer Einsatz von Sicherheitsvorlagen für Windows Server 2003
+
+G 3.82 Fehlerhafte Konfiguration der VoIP-Middleware
+
+G 3.83 Fehlerhafte Konfiguration von VoIP-Komponenten
+
+G 3.84 Fehlerhafte Konfiguration der WLAN-Infrastruktur
+
+G 3.85 Verletzung von Brandschottungen
+
+G 3.86 Ungeregelte und sorglose Nutzung von Druckern, Kopierern und Multifunktionsgeräten
+
+G 3.87 Fehlerhafte Konfiguration von Verzeichnisdiensten
+
+G 3.88 Falsche Vergabe von Zugriffsrechten
+
+G 3.89 Fehlerhafte Konfiguration des LDAP-Zugriffs auf Verzeichnisdienste
+
+G 3.90 Fehlerhafte Administration von VPNs
+
+G 3.91 Ausfall von VPN-Verbindungen durch Fehlbedienung
+
+G 3.92 Fehleinschätzung der Relevanz von Patches und Änderungen
+
+G 3.93 Falscher Umgang mit defekten Datenträgern
+
+G 3.94 Fehlkonfiguration der Samba-Kommunikationsprotokolle
+
+G 3.95 Fehlerhafte Konfiguration des Betriebssystems für einen Samba-Server
+
+G 3.96 Fehlerhafte Konfiguration eines Samba-Servers
+
+G 3.97 Vertraulichkeitsverletzung trotz BitLocker Drive Encryption unter Windows Vista
+
+G 3.98 Verlust von BitLocker-verschlüsselten Daten

@@ -1,0 +1,78 @@
+package tum.umlsec.viki.framework;
+
+import java.net.URL;
+
+import tum.umlsec.viki.framework.mdr.*;
+import tum.umlsec.viki.framework.toolbase.IVikiToolBase;
+
+/**
+ * @author pasha
+ */
+public abstract class FrameworkBase {
+
+	public abstract void run(); 
+
+	
+	public void initialiseBase(IVikiToolBase [] _tools, String _resourceRoot, String _repositoryRoot) {
+		tools = _tools;
+		
+		saveResourceRoot(_resourceRoot);
+		saveRepositoryRoot(_repositoryRoot);
+
+		mdrContainer = new MdrContainer(resourceRoot, repositoryRoot);	
+		appSettings = new AppSettings();	
+		
+		for (int i = 0; i < getTools().length; i++) {
+			IVikiToolBase _tool = getTools()[i];
+			_tool.initialiseBase(getMdrContainer());
+		}
+	}
+	
+	private void saveResourceRoot(String _resourceRoot) {
+		if(_resourceRoot != null) {
+			resourceRoot = _resourceRoot;
+			return ;
+		}
+		try {
+			URL _url = ClassLoader.getSystemClassLoader().getResource("umlsec");
+			String _path = _url.getPath();
+			resourceRoot = _path.substring(0, _path.lastIndexOf("umlsec"));
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			System.out.println("Can't locate the necessary resources. Please consult the documentation.");
+			System.exit(0);
+		}
+	}
+	
+	private void saveRepositoryRoot(String _repositoryRoot) {
+		if(_repositoryRoot != null) {
+			repositoryRoot = _repositoryRoot;
+		} else {
+			repositoryRoot = resourceRoot;
+		}
+	}
+	
+
+
+
+
+
+	public String getResourceRootXX() {			return resourceRoot;		}
+	public String getRepositoryRoot() {			return repositoryRoot;		}
+	
+	public MdrContainer getMdrContainer() {		return mdrContainer;		}
+	public AppSettings getAppSettings() {		return appSettings;			}
+	public IVikiToolBase [] getTools() {		return tools;				}
+
+
+//	path to the place where all program resources are stored
+	private static String resourceRoot;
+	private static String repositoryRoot;
+	
+	private MdrContainer mdrContainer;
+	private AppSettings appSettings;
+	private IVikiToolBase [] tools; 
+}
+
+
+

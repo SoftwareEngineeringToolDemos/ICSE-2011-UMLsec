@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Author     : Shunwei
+    Description:
+        construct a Failure.
+-->
+<failures>
+	<instance risk="crash/performance">
+		<values redundancy="none">
+			<loss>0.1</loss>
+			<delay>11</delay>
+		</values>
+		<values redundancy="majority">
+			<loss>0.01</loss>
+			<delay>11</delay>
+		</values>
+		<values redundancy="fastest">
+			<loss>0.1</loss>
+			<delay>1</delay>
+		</values>
+	</instance>
+	<instance risk="value">
+		<values redundancy="none">
+			<corruption>0.2</corruption>
+		</values>
+		<values redundancy="majority">
+			<corruption>0.04</corruption>
+		</values>
+		<values redundancy="fastest">
+			<corruption>0.2</corruption>
+		</values>
+	</instance>
+</failures>

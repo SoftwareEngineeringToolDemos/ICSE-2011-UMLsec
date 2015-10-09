@@ -1,0 +1,4 @@
+)).
+%------------------------ Attack -------------------------
+input_formula(attack,conjecture,(
+   knows(secret) )).

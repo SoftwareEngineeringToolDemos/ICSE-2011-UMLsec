@@ -1,0 +1,27 @@
+G 6 Gefährdungskatalog Datenschutz
+
+G 6.1 Fehlende Zulässigkeit der Verarbeitung personenbezogener Daten
+
+G 6.2 Nichteinhaltung der Zweckbindung bei der Verarbeitung personen-bezogener Daten
+
+G 6.3 Überschreitung des Erforderlichkeitsgrundsatzes bei der Verarbeitung personenbezogener Daten
+
+G 6.4 Fehlende oder unzureichende Datenvermeidung und Datensparsamkeit bei der Verarbeitung personenbezogener Daten
+
+G 6.5 Verletzung des Datengeheimnisses bei der Verarbeitung personenbezogener Daten
+
+G 6.6 Fehlende oder nicht ausreichende Vorabkontrolle
+
+G 6.7 Gefährdung der Rechte Betroffener bei der Verarbeitung personenbezogener Daten
+
+G 6.8 Fehlende oder unzureichende Absicherung der Datenverarbeitung im Auftrag bei der Verarbeitung personenbezogener Daten
+
+G 6.9 Fehlende Transparenz für den Betroffenen und die Datenschutz-Kontrollinstanzen
+
+G 6.10 Gefährdung vorgegebener Kontrollziele bei der Verarbeitung personenbezogener Daten
+
+G 6.11 Fehlende oder unzureichende Absicherung der Verarbeitung personenbezogener Daten im Ausland
+
+G 6.12 Unzulässige automatisierten Einzelfallentscheidungen oder Abrufe bei der Verarbeitung personenbezogener Daten
+
+G 6.13 Fehlende oder unzureichende Datenschutzkontrolle
