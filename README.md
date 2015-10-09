@@ -58,13 +58,3 @@ and by
 
 Project history: None.
 The author provided his source code in his website. I migrated it to Github.
-
---------------------------
-To get start in Windows:
-(be sure that you have Java runtime environment, since the tool is java based).
-
-click in "checksystem.bat"
-
-[The User Manuals for current version (2.04) is here:](https://www-secse.cs.tu-dortmund.de/jj/umlsectool/users_new.html)
-
---------------------------
