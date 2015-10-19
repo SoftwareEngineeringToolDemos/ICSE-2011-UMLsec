@@ -41,7 +41,7 @@ In this repository, for UMLsec you will find:
 
 This repository was constructed by [Yi-Chun Chen (RimiChen)](https://github.com/RimiChen) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
-Thank for all assistances from Dr. Jan Jürjens. He helped use to find the binary and the source of the tool. And, the tool's website contains clear user manuals which give use guides to use the tool.
+Thank for all assistances from Dr. Jan Jürjens. He helped us to find the binary and the source of the tool. And, the tool's website contains clear user manuals which give us guides to use the tool.
 
 
 
