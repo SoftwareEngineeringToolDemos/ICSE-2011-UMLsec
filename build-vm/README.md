@@ -60,3 +60,8 @@ Reference and sources
 7. [How to install JDK from PowerShell silently](http://blag.koveras.org/2011/12/24/how-to-install-jdk-from-powershell-silently/)
 8. [Vagrant Provision Reboot Plugin](https://github.com/exratione/vagrant-provision-reboot)
 9. [ADD YOUR OWN CUSTOMIZATION TO VAGRANT BOXES](https://mkrmr.wordpress.com/2012/08/12/add-your-own-customization-to-vagrant-boxes/)
+10. [How to install JDK from PowerShell silently](http://blag.koveras.org/2011/12/24/how-to-install-jdk-from-powershell-silently/)
+11. [Calling Executable Files in PowerShell](http://www.andyparkhill.co.uk/2012/02/calling-executable-files-in-powershell.html)
+12. [Powershell install Java silently](http://stackoverflow.com/questions/29799158/powershell-install-java-silently)
+13. [VagrantDocs](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
+14. [Windows : Disable UAC (User Account Control) with CMD Script & PowerShell](http://juventusitprofessional.blogspot.com/2014/05/windows-disable-uac-user-account.html)
