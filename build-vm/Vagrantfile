@@ -1,0 +1,41 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+require './vagrant-provision-reboot-plugin'
+
+Vagrant.configure(2) do |config|
+
+  # Every Vagrant development environment requires a box.
+  config.vm.box = "modernIE/w7-ie11"
+  config.vm.hostname = "UMLsec"
+  config.vm.provider :virtualbox do |vb|
+    vb.name = "UMLsec"
+  end  
+
+  # Disable automatic box update checking. 
+  config.vm.box_check_update = false
+
+  # Share an additional folder to the guest VM.
+  config.vm.synced_folder "../", "/vagrant_UMLsec"
+
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. 
+  
+  config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+     vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+     vb.memory = "512"
+  end
+  #
+  # View the documentation for the provider you are using for more
+  # information on available options.
+  
+  #config.vm.provision :shell, path: "installScript/Install-dot-net.ps1"
+
+  config.vm.provision :shell, path: "installScript/disable-UAC.ps1"
+  config.vm.provision :windows_reboot
+  config.vm.provision :shell, path: "installScript/Install-JRE.ps1"
+  
+end
