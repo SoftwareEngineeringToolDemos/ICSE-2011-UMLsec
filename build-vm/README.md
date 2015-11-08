@@ -43,7 +43,8 @@ Note:
 ------
 - Login is not required.
 - If the VM has not been executed in your computer before, it might take longer time to download and load th VM.
-- The VM will reboot several time automatically to config environment and settings. 
+- The VM will reboot several time automatically to config environment and settings.
+- 
   host name change --> reboot --> Disable UAC --> reboot by plugin -->start installations.
 - Please be patient, wait until message "Setting successful, JRE has been installed."
 - The JRE is installed in c:\Program Files\Java\jre7
