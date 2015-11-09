@@ -65,3 +65,10 @@ Reference and sources
 12. [Powershell install Java silently](http://stackoverflow.com/questions/29799158/powershell-install-java-silently)
 13. [VagrantDocs](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 14. [Windows : Disable UAC (User Account Control) with CMD Script & PowerShell](http://juventusitprofessional.blogspot.com/2014/05/windows-disable-uac-user-account.html)
+
+Author
+-----
+The build-vm folder, README.md, script files in this repo were created by
+
+Name: [Yi-Chun Chen](https://github.com/RimiChen)
+Team: Onslow.
