@@ -1,0 +1,43 @@
+=====================================
+This License document is created by 
+
+Name:Yi-Chun Chen
+Unity ID: ychen74
+
+Course: CSC 510, Software Engineering
+Team: Onslow
+=====================================
+
+This document includes:
+1. copyright information for tool UMLsec
+2. license for Java Runtime Environment
+3. license for ArgoUML
+
+===================
+Copyright of UMLsec
+===================
+
+
+(* These copyright information is quoted from UMLsec website: https://www-secse.cs.tu-dortmund.de/jj/umlsectool/downloads.html)
+
+
+Copyright notice
+
+The source code is ?by the members of the UMLsec tool group 2001-2014
+and available under an open-source license.
+
+Please ask about availability under other agreements.
+
+
+Author information:
+ask: https://www-secse.cs.tu-dortmund.de/secse/pages/people/juerjens/index_de.shtml
+
+
+
+
+==============
+License of JRE
+==============
+
+Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX:
+http://www.oracle.com/technetwork/java/javase/terms/license/index.html

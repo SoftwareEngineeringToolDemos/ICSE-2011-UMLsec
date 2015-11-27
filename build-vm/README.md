@@ -4,7 +4,7 @@ Environment
 ------
 __VM:__ Windows 7 with IE 11 (same with previous hand made VMs)
 
-__Script:__ for Windows only (vagrant + powershell)
+__Script:__ for Windows only (vagrant + powershell + bat file)
 
 __External sources:__ [modernIE/w7-ie11](https://atlas.hashicorp.com/modernIE/boxes/w7-ie11),[Vagrant Provision Reboot Plugin](https://github.com/exratione/vagrant-provision-reboot) 
 
@@ -45,7 +45,9 @@ Note:
 - If the VM has not been executed in your computer before, it might take longer time to download and load th VM.
 - The VM will reboot several time automatically to config environment and settings.
 
-  host name change --> reboot --> Disable UAC --> reboot by plugin -->start installations.
+  host name change --> reboot --> Disable UAC --> reboot by plugin -->start java installations 
+  --> copy License, readme, tool folders, and youtube link, and set startup file--> reboot to activate startup script.
+  
 - Please be patient, wait until message "Setting successful, JRE has been installed."
 - The JRE is installed in c:\Program Files\Java\jre7
 
@@ -65,7 +67,7 @@ Reference and sources
 12. [Powershell install Java silently](http://stackoverflow.com/questions/29799158/powershell-install-java-silently)
 13. [VagrantDocs](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 14. [Windows : Disable UAC (User Account Control) with CMD Script & PowerShell](http://juventusitprofessional.blogspot.com/2014/05/windows-disable-uac-user-account.html)
-
+15. [Powershell function to pin and unpin from Windows Taskbar](https://rcmtech.wordpress.com/2014/03/12/powershell-function-to-pin-and-unpin-from-windows-taskbar/)
 Author
 -----
 The build-vm folder, README.md, script files in this repo were created by

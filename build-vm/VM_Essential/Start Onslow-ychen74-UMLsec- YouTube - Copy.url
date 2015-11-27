@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://www.youtube.com/watch?v=lkZ39rajhEc&feature=youtu.be
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://www.youtube.com/watch?v=lkZ39rajhEc&feature=youtu.be
+IconFile=https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png
+IconIndex=1

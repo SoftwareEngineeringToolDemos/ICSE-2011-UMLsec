@@ -1,0 +1,68 @@
+=====================================
+This Installation document is created by 
+
+Name:Yi-Chun Chen
+Unity ID: ychen74
+
+Course: CSC 510, Software Engineering
+Team: Onslow
+=====================================
+
+=============
+Execute in VM
+=============
+
+1. A shortcut of UMLsec has already been created on desktop.
+
+double click to execute UMLsec.
+
+2. For general execution in win:
+
+click on "checksystem.bat"
+(In Desktop\UMLsec\umlsectool_v2_0_4\viki_source)
+
+===========================
+Execute from downloaded zip
+===========================
+
+1. Unzip the downloaded file.
+Download Link: https://www-secse.cs.tu-dortmund.de/jj/umlsectool/current/
+
+2. Follow instructions in readme.txt
+
+
+*****(Author's instruction)******************
+How to use the UMLsec tool under windows
+------------------------------------------
+
+*run it with the checksystem.bat file
+
+
+How to use the UMLsec tool under GNU/Linux
+--------------------------------------------
+
+* run it with the checksystem.sh file
+
+*****(Author's instruction)******************
+
+
+========================
+Launch UMLsec in Eclipse
+========================
+
+Reference link: https://www-secse.cs.tu-dortmund.de/jj/umlsectool/manuals_new/launchconfig/index.html
+
+*****(Author's instruction)******************
+
+1. Open the properties-dialog of the project and create a new launch configuration. The type to be chosen is "Java Application". 
+
+2. In the configuration dialog, type in open.umlsec.tools.checksystem.gui.SystemVerificationLoader as main class.
+ 
+3. Go to the Classpath-tab. Click on User Entries and then open the Advanced... dialog. Choose Add Folders and choose src\tum. 
+
+Now you can use Eclipse to conveniently build, clean-build, run and debug the UMLsec-tool using the integrated features of Eclipse.
+
+
+*****(Author's instruction)******************
+
+

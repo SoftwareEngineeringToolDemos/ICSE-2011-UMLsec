@@ -49,7 +49,7 @@ Thank for all assistances from Dr. Jan Jürjens. He helped us to find the binary
 This README document is created for CSC 510 Software engineering course, NCSU, 2015 fall.
 and by
 * Name: Yi-Chun Chen
-* UnityID: ychen74
+* UnityID: ychen4
 * Team: Onslow
 
 * Studied paper: ICSE- 2011 "Automated Security Hardening for Evolving UML Models."

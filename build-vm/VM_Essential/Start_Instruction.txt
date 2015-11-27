@@ -1,0 +1,3 @@
+Double Click "UMLsec.bat" in the folder which automatically be loaded when windows starts.
+
+or double click "UMLsec.bat" in "C:\Users\IEUser\Desktop\UMLsec\"
