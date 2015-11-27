@@ -48,8 +48,9 @@ Note:
   host name change --> reboot --> Disable UAC --> reboot by plugin -->start java installations 
   --> copy License, readme, tool folders, and youtube link, and set startup file--> reboot to activate startup script.
   
-- Please be patient, wait until message "Setting successful, JRE has been installed."
+- Please be patient, wait until message "The VM box is all set."
 - The JRE is installed in c:\Program Files\Java\jre7
+- The tool UMLsec is in Desktop/UMLsec
 
 Reference and sources
 -----
