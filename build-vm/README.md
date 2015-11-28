@@ -50,7 +50,7 @@ Note:
   
 - Please be patient, wait until message "The VM box is all set."
 - The JRE is installed in c:\Program Files\Java\jre7
-- The tool UMLsec is in Desktop/UMLsec
+- The tool UMLsec is in Desktop\UMLsec
 
 Reference and sources
 -----
