@@ -1,3 +1,7 @@
-Double Click "UMLsec.bat" in the folder which automatically be loaded when windows starts.
+3 ways to open the tool
+==========================
+1. Double Click "UMLsec.bat" in the folder which automatically be loaded when windows starts.
 
-or double click "UMLsec.bat" in "C:\Users\IEUser\Desktop\UMLsec\"
+2. Double Click "UMLsec.bat" shortcut on desktop
+
+3. Double click "UMLsec.bat" in "C:\Users\IEUser\Desktop\UMLsec\"

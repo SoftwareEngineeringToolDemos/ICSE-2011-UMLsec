@@ -18,8 +18,8 @@ double click to execute UMLsec.
 
 2. For general execution in win:
 
-click on "checksystem.bat"
-(In Desktop\UMLsec\umlsectool_v2_0_4\viki_source)
+click on "UMLsec.bat"
+(In Desktop\UMLsec\)
 
 ===========================
 Execute from downloaded zip

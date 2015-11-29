@@ -20,10 +20,11 @@ This document includes:
 =====================
 
 1. When the VM is all set, the folder of UMLsec will automatically show up
+or A shortcut of UMLsec which has already been created on desktop.
 
 2. For general execution in win:
 double click "UMLsec.bat" to execute UMLsec.
-(In Desktop\UMLsec\)
+(In Desktop\UMLsec\  or  shortcut on Desktop)
 
 
 
@@ -73,7 +74,7 @@ Function 13.
 UMLseCh Static Check - Secure Dependency
 
 
-Demo examples of this function  are in Desktop\UMLsec\UMLsec Examples\UMLseCh Static Check Examples\
+Demo examples of this function  are in Desktop\UMLsec Examples\UMLseCh Static Check Examples\
 
 
 (* some of the following words are quoted from the tool's website)

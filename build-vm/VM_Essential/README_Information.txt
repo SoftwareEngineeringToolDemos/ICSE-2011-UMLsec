@@ -39,6 +39,7 @@ This tool is used to generate examples for UMLsec
 ===========================
 
 1. When the VM is all set, the folder of UMLsec will automatically show up
+or Double click the shortcut on desktop
 
 2. For general execution in win:
 double click "UMLsec.bat" to execute UMLsec.
