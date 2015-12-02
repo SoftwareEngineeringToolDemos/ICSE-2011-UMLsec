@@ -1,0 +1,887 @@
+M 2 Organisation 
+
+M 2.1 Festlegung von Verantwortlichkeiten und Regelungen
+
+M 2.2 Betriebsmittelverwaltung
+
+M 2.3 Datenträgerverwaltung
+
+M 2.4 Regelungen für Wartungs- und Reparaturarbeiten
+
+M 2.5 Aufgabenverteilung und Funktionstrennung
+
+M 2.6 Vergabe von Zutrittsberechtigungen
+
+M 2.7 Vergabe von Zugangsberechtigungen
+
+M 2.8 Vergabe von Zugriffsrechten
+
+M 2.9 Nutzungsverbot nicht freigegebener Hard- und Software
+
+M 2.10 Überprüfung des Hard- und Software-Bestandes
+
+M 2.11 Regelung des Passwortgebrauchs
+
+M 2.12 Betreuung und Beratung von IT-Benutzern
+
+M 2.13 Ordnungsgemäße Entsorgung von schützenswerten Betriebsmitteln
+
+M 2.14 Schlüsselverwaltung
+
+M 2.15 Brandschutzbegehungen
+
+M 2.16 Beaufsichtigung oder Begleitung von Fremdpersonen
+
+M 2.17 Zutrittsregelung und -kontrolle
+
+M 2.18 Kontrollgänge
+
+M 2.19 Neutrale Dokumentation in den Verteilern
+
+M 2.20 Kontrolle bestehender Verbindungen
+
+M 2.21 Rauchverbot
+
+M 2.22 Hinterlegen des Passwortes
+
+M 2.23 Herausgabe einer PC-Richtlinie
+
+M 2.24 Einführung eines IT-Passes
+
+M 2.25 Dokumentation der Systemkonfiguration
+
+M 2.26 Ernennung eines Administrators und eines Vertreters
+
+M 2.27 Verzicht auf Fernwartung der TK-Anlage
+
+M 2.28 Bereitstellung externer TK-Beratungskapazität
+
+M 2.29 Bedienungsanleitung der TK-Anlage für die Benutzer
+
+M 2.30 Regelung für die Einrichtung von Benutzern / Benutzergruppen
+
+M 2.31 Dokumentation der zugelassenen Benutzer und Rechteprofile
+
+M 2.32 Einrichtung einer eingeschränkten Benutzerumgebung
+
+M 2.33 Aufteilung der Administrationstätigkeiten unter Unix
+
+M 2.34 Dokumentation der Veränderungen an einem bestehenden System
+
+M 2.35 Informationsbeschaffung über Sicherheitslücken des Systems
+
+M 2.36 Geregelte Übergabe und Rücknahme eines tragbaren PC
+
+M 2.37 Der aufgeräumte Arbeitsplatz
+
+M 2.38 Aufteilung der Administrationstätigkeiten
+
+M 2.39 Reaktion auf Verletzungen der Sicherheitsvorgaben
+
+M 2.40 Rechtzeitige Beteiligung des Personal-/Betriebsrates
+
+M 2.41 Verpflichtung der Mitarbeiter zur Datensicherung
+
+M 2.42 Festlegung der möglichen Kommunikationspartner
+
+M 2.43 Ausreichende Kennzeichnung der Datenträger beim Versand
+
+M 2.44 Sichere Verpackung der Datenträger
+
+M 2.45 Regelung des Datenträgeraustausches
+
+M 2.46 Geeignetes Schlüsselmanagement
+
+M 2.47 Ernennung eines Fax-Verantwortlichen
+
+M 2.48 Festlegung berechtigter Faxbediener
+
+M 2.49 Beschaffung geeigneter Faxgeräte
+
+M 2.50 Geeignete Entsorgung von Fax-Verbrauchsgütern und -Ersatzteilen
+
+M 2.51 Fertigung von Kopien eingehender Faxsendungen
+
+M 2.52 Versorgung und Kontrolle der Verbrauchsgüter
+
+M 2.53 Abschalten des Faxgerätes außerhalb der Bürozeiten
+
+M 2.54 Beschaffung geeigneter Anrufbeantworter
+
+M 2.55 Einsatz eines Sicherungscodes
+
+M 2.56 Vermeidung schutzbedürftiger Informationen auf dem Anrufbeantworter
+
+M 2.57 Regelmäßiges Abhören und Löschen aufgezeichneter Gespräche
+
+M 2.58 Begrenzung der Sprechdauer
+
+M 2.59 Auswahl eines geeigneten Modems in der Beschaffung
+
+M 2.60 Sichere Administration eines Modems
+
+M 2.61 Regelung des Modem-Einsatzes
+
+M 2.62 Software-Abnahme- und Freigabe-Verfahren
+
+M 2.63 Einrichten der Zugriffsrechte
+
+M 2.64 Kontrolle der Protokolldateien
+
+M 2.65 Kontrolle der Wirksamkeit der Benutzer-Trennung am IT-System
+
+M 2.66 Beachtung des Beitrags der Zertifizierung für die Beschaffung
+
+M 2.67 Festlegung einer Sicherheitsstrategie für Peer-to-Peer-Dienste - entfallen
+
+M 2.68 Sicherheitskontrollen durch die Benutzer beim Einsatz von Peer-to-Peer-Diensten - entfallen
+
+M 2.69 Einrichtung von Standardarbeitsplätzen
+
+M 2.70 Entwicklung eines Konzepts für Sicherheitsgateways
+
+M 2.71 Festlegung einer Policy für ein Sicherheitsgateway
+
+M 2.72 Anforderungen an eine Firewall - entfallen
+
+M 2.73 Auswahl geeigneter Grundstrukturen für Sicherheitsgateways
+
+M 2.74 Geeignete Auswahl eines Paketfilters
+
+M 2.75 Geeignete Auswahl eines Application-Level-Gateways
+
+M 2.76 Auswahl und Einrichtung geeigneter Filterregeln
+
+M 2.77 Integration von Servern in das Sicherheitsgateway
+
+M 2.78 Sicherer Betrieb eines Sicherheitsgateways
+
+M 2.79 Festlegung der Verantwortlichkeiten im Bereich Standardsoftware
+
+M 2.80 Erstellung eines Anforderungskatalogs für Standardsoftware
+
+M 2.81 Vorauswahl eines geeigneten Standardsoftwareproduktes
+
+M 2.82 Entwicklung eines Testplans für Standardsoftware
+
+M 2.83 Testen von Standardsoftware
+
+M 2.84 Entscheidung und Entwicklung der Installationsanweisung für Standardsoftware
+
+M 2.85 Freigabe von Standardsoftware
+
+M 2.86 Sicherstellen der Integrität von Standardsoftware
+
+M 2.87 Installation und Konfiguration von Standardsoftware
+
+M 2.88 Lizenzverwaltung und Versionskontrolle von Standardsoftware
+
+M 2.89 Deinstallation von Standardsoftware
+
+M 2.90 Überprüfung der Lieferung
+
+M 2.91 Festlegung einer Sicherheitsstrategie für das Windows NT Client-Server-Netz - entfallen
+
+M 2.92 Durchführung von Sicherheitskontrollen im Windows NT Client-Server-Netz - entfallen
+
+M 2.93 Planung des Windows NT Netzes - entfallen
+
+M 2.94 Freigabe von Verzeichnissen unter Windows NT - entfallen
+
+M 2.95 Beschaffung geeigneter Schutzschränke
+
+M 2.96 Verschluss von Schutzschränken
+
+M 2.97 Korrekter Umgang mit Codeschlössern
+
+M 2.98 Sichere Installation von Novell Netware Servern - entfallen
+
+M 2.99 Sichere Einrichtung von Novell Netware Servern - entfallen
+
+M 2.100 Sicherer Betrieb von Novell Netware Servern - entfallen
+
+M 2.101 Revision von Novell Netware Servern - entfallen
+
+M 2.102 Verzicht auf die Aktivierung der Remote Console
+
+M 2.103 Einrichten von Benutzerprofilen unter Windows 95 - entfallen
+
+M 2.104 Systemrichtlinien zur Einschränkung der Nutzungsmöglichkeiten von Windows 95 - entfallen
+
+M 2.105 Beschaffung von TK-Anlagen
+
+M 2.106 Auswahl geeigneter ISDN-Karten in der Beschaffung
+
+M 2.107 Dokumentation der ISDN-Karten-Konfiguration
+
+M 2.108 Verzicht auf Fernwartung der ISDN-Netzkoppelelemente
+
+M 2.109 Rechtevergabe für den Fernzugriff
+
+M 2.110 Datenschutzaspekte bei der Protokollierung
+
+M 2.111 Bereithalten von Handbüchern
+
+M 2.112 Regelung des Akten- und Datenträgertransports zwischen häuslichem Arbeitsplatz und Institution
+
+M 2.113 Regelungen für Telearbeit
+
+M 2.114 Informationsfluss zwischen Telearbeiter und Institution
+
+M 2.115 Betreuungs- und Wartungskonzept für Telearbeitsplätze
+
+M 2.116 Geregelte Nutzung der Kommunikationsmöglichkeiten bei Telearbeit
+
+M 2.117 Erstellung eines Sicherheitskonzeptes für Telearbeit
+
+M 2.118 Konzeption der sicheren E-Mail-Nutzung
+
+M 2.119 Regelung für den Einsatz von E-Mail
+
+M 2.120 Einrichtung einer Poststelle
+
+M 2.121 Regelmäßiges Löschen von E-Mails
+
+M 2.122 Einheitliche E-Mail-Adressen
+
+M 2.123 Auswahl eines Mailproviders
+
+M 2.124 Geeignete Auswahl einer Datenbank-Software
+
+M 2.125 Installation und Konfiguration einer Datenbank
+
+M 2.126 Erstellung eines Datenbanksicherheitskonzeptes
+
+M 2.127 Inferenzprävention
+
+M 2.128 Zugangskontrolle einer Datenbank
+
+M 2.129 Zugriffskontrolle einer Datenbank
+
+M 2.130 Gewährleistung der Datenbankintegrität
+
+M 2.131 Aufteilung von Administrationstätigkeiten bei Datenbanksystemen
+
+M 2.132 Regelung für die Einrichtung von Datenbankbenutzern/-benutzergruppen
+
+M 2.133 Kontrolle der Protokolldateien eines Datenbanksystems
+
+M 2.134 Richtlinien für Datenbank-Anfragen
+
+M 2.135 Gesicherte Datenübernahme in eine Datenbank
+
+M 2.136 Einhaltung von Regelungen zu Arbeitsplatz und Arbeitsumgebung - entfallen
+
+M 2.137 Beschaffung eines geeigneten Datensicherungssystems
+
+M 2.138 Strukturierte Datenhaltung
+
+M 2.139 Ist-Aufnahme der aktuellen Netzsituation
+
+M 2.140 Analyse der aktuellen Netzsituation
+
+M 2.141 Entwicklung eines Netzkonzeptes
+
+M 2.142 Entwicklung eines Netz-Realisierungsplans
+
+M 2.143 Entwicklung eines Netzmanagementkonzeptes
+
+M 2.144 Geeignete Auswahl eines Netzmanagement-Protokolls
+
+M 2.145 Anforderungen an ein Netzmanagement-Tool
+
+M 2.146 Sicherer Betrieb eines Netzmanagementsystems
+
+M 2.147 Sichere Migration von Novell Netware 3.x Servern in Novell Netware 4.x Netze
+
+M 2.148 Sichere Einrichtung von Novell Netware 4.x Netzen
+
+M 2.149 Sicherer Betrieb von Novell Netware 4.x Netzen
+
+M 2.150 Revision von Novell Netware 4.x Netzen
+
+M 2.151 Entwurf eines NDS-Konzeptes
+
+M 2.152 Entwurf eines Zeitsynchronisations-Konzeptes
+
+M 2.153 Dokumentation von Novell Netware 4.x Netzen
+
+M 2.154 Erstellung eines Sicherheitskonzeptes gegen Schadprogramme
+
+M 2.155 Identifikation potentiell von Computer-Viren betroffener IT-Systeme - entfallen
+
+M 2.156 Auswahl einer geeigneten Computer-Virenschutz-Strategie - entfallen
+
+M 2.157 Auswahl eines geeigneten Viren-Schutzprogramms
+
+M 2.158 Meldung von Schadprogramm-Infektionen
+
+M 2.159 Aktualisierung der eingesetzten Viren-Schutzprogramme und Signaturen
+
+M 2.160 Regelungen zum Schutz vor Schadprogrammen
+
+M 2.161 Entwicklung eines Kryptokonzepts
+
+M 2.162 Bedarfserhebung für den Einsatz kryptographischer Verfahren und Produkte
+
+M 2.163 Erhebung der Einflussfaktoren für kryptographische Verfahren und Produkte
+
+M 2.164 Auswahl eines geeigneten kryptographischen Verfahrens
+
+M 2.165 Auswahl eines geeigneten kryptographischen Produktes
+
+M 2.166 Regelung des Einsatzes von Kryptomodulen
+
+M 2.167 Auswahl geeigneter Verfahren zur Löschung oder Vernichtung von Daten
+
+M 2.168 IT-System-Analyse vor Einführung eines Systemmanagementsystems
+
+M 2.169 Entwickeln einer Systemmanagementstrategie
+
+M 2.170 Anforderungen an ein Systemmanagementsystem
+
+M 2.171 Geeignete Auswahl eines Systemmanagement-Produktes
+
+M 2.172 Entwicklung eines Konzeptes für die Web-Nutzung
+
+M 2.173 Festlegung einer Web-Sicherheitsstrategie
+
+M 2.174 Sicherer Betrieb eines Webservers
+
+M 2.175 Aufbau eines Webservers
+
+M 2.176 Geeignete Auswahl eines Internet Service Providers
+
+M 2.177 Sicherheit bei Umzügen
+
+M 2.178 Erstellung einer Sicherheitsleitlinie für die Faxnutzung
+
+M 2.179 Regelungen für den Faxserver-Einsatz
+
+M 2.180 Einrichten einer Fax-Poststelle
+
+M 2.181 Auswahl eines geeigneten Faxservers
+
+M 2.182 Regelmäßige Kontrollen der IT-Sicherheitsmaßnahmen - entfallen
+
+M 2.183 Durchführung einer RAS-Anforderungsanalyse - entfallen
+
+M 2.184 Entwicklung eines RAS-Konzeptes - entfallen
+
+M 2.185 Auswahl einer geeigneten RAS-Systemarchitektur - entfallen
+
+M 2.186 Geeignete Auswahl eines RAS-Produktes - entfallen
+
+M 2.187 Festlegen einer RAS-Sicherheitsrichtlinie - entfallen
+
+M 2.188 Sicherheitsrichtlinien und Regelungen für die Mobiltelefon-Nutzung
+
+M 2.189 Sperrung des Mobiltelefons bei Verlust
+
+M 2.190 Einrichtung eines Mobiltelefon-Pools
+
+M 2.191 Etablierung des IT-Sicherheitsprozesses - entfallen
+
+M 2.192 Erstellung einer Leitlinie zur Informationssicherheit
+
+M 2.193 Aufbau einer geeigneten Organisationsstruktur für Informationssicherheit
+
+M 2.194 Erstellung einer Übersicht über vorhandene IT-Systeme - entfallen
+
+M 2.195 Erstellung eines Sicherheitskonzepts
+
+M 2.196 Umsetzung des IT-Sicherheitskonzepts nach einem Realisierungsplan - entfallen
+
+M 2.197 Integration der Mitarbeiter in den Sicherheitsprozess
+
+M 2.198 Sensibilisierung der Mitarbeiter für Informationssicherheit
+
+M 2.199 Aufrechterhaltung der Informationssicherheit
+
+M 2.200 Management-Berichte zur Informationssicherheit
+
+M 2.201 Dokumentation des Sicherheitsprozesses
+
+M 2.202 Erstellung eines Handbuchs zur IT-Sicherheit - entfallen
+
+M 2.203 Aufbau einer Informationsbörse zur IT-Sicherheit - entfallen
+
+M 2.204 Verhinderung ungesicherter Netzzugänge
+
+M 2.205 Übertragung und Abruf personenbezogener Daten
+
+M 2.206 Planung des Einsatzes von Lotus Notes
+
+M 2.207 Festlegen einer Sicherheitsrichtlinie für Lotus Notes
+
+M 2.208 Planung der Domänen und der Zertifikatshierarchie von Lotus Notes
+
+M 2.209 Planung des Einsatzes von Lotus Notes im Intranet
+
+M 2.210 Planung des Einsatzes von Lotus Notes im Intranet mit Browser-Zugriff
+
+M 2.211 Planung des Einsatzes von Lotus Notes in einer DMZ
+
+M 2.212 Organisatorische Vorgaben für die Gebäudereinigung
+
+M 2.213 Inspektion und Wartung der technischen Infrastruktur
+
+M 2.214 Konzeption des IT-Betriebs
+
+M 2.215 Fehlerbehandlung
+
+M 2.216 Genehmigungsverfahren für IT-Komponenten
+
+M 2.217 Sorgfältige Einstufung und Umgang mit Informationen, Anwendungen und Systemen
+
+M 2.218 Regelung der Mitnahme von Datenträgern und IT-Komponenten
+
+M 2.219 Kontinuierliche Dokumentation der Informationsverarbeitung
+
+M 2.220 Richtlinien für die Zugriffs- bzw. Zugangskontrolle
+
+M 2.221 Änderungsmanagement
+
+M 2.222 Regelmäßige Kontrollen der technischen IT-Sicherheitsmaßnahmen - entfallen
+
+M 2.223 Sicherheitsvorgaben für die Nutzung von Standardsoftware
+
+M 2.224 Vorbeugung gegen Schadprogramme
+
+M 2.225 Zuweisung der Verantwortung für Informationen, Anwendungen und IT-Komponenten
+
+M 2.226 Regelungen für den Einsatz von Fremdpersonal
+
+M 2.227 Planung des Windows 2000 Einsatzes
+
+M 2.228 Festlegen einer Windows 2000 Sicherheitsrichtlinie
+
+M 2.229 Planung des Active Directory
+
+M 2.230 Planung der Active Directory-Administration
+
+M 2.231 Planung der Gruppenrichtlinien unter Windows
+
+M 2.232 Planung der Windows 2000/2003 CA-Struktur
+
+M 2.233 Planung der Migration von Windows NT auf Windows 2000
+
+M 2.234 Konzeption von Internet-PCs
+
+M 2.235 Richtlinien für die Nutzung von Internet-PCs
+
+M 2.236 Planung des Einsatzes von Novell eDirectory
+
+M 2.237 Planung der Partitionierung und Replikation im Novell eDirectory
+
+M 2.238 Festlegung einer Sicherheitsrichtlinie für Novell eDirectory
+
+M 2.239 Planung des Einsatzes von Novell eDirectory im Intranet
+
+M 2.240 Planung des Einsatzes von Novell eDirectory im Extranet
+
+M 2.241 Durchführung einer Anforderungsanalyse für den Telearbeitsplatz
+
+M 2.242 Zielsetzung der elektronischen Archivierung
+
+M 2.243 Entwicklung des Archivierungskonzepts
+
+M 2.244 Ermittlung der technischen Einflussfaktoren für die elektronische Archivierung
+
+M 2.245 Ermittlung der rechtlichen Einflussfaktoren für die elektronische Archivierung
+
+M 2.246 Ermittlung der organisatorischen Einflussfaktoren für die elektronische Archivierung
+
+M 2.247 Planung des Einsatzes von Exchange/Outlook 2000
+
+M 2.248 Festlegung einer Sicherheitsrichtlinie für Exchange/ Outlook 2000
+
+M 2.249 Planung der Migration von Exchange 5.5-Servern nach Exchange 2000
+
+M 2.250 Festlegung einer Outsourcing-Strategie
+
+M 2.251 Festlegung der Sicherheitsanforderungen für Outsourcing-Vorhaben
+
+M 2.252 Wahl eines geeigneten Outsourcing-Dienstleisters
+
+M 2.253 Vertragsgestaltung mit dem Outsourcing-Dienstleister
+
+M 2.254 Erstellung eines IT-Sicherheitskonzepts für das Outsourcing-Vorhaben
+
+M 2.255 Sichere Migration bei Outsourcing-Vorhaben
+
+M 2.256 Planung und Aufrechterhaltung der IT-Sicherheit im laufenden Outsourcing-Betrieb
+
+M 2.257 Überwachung der Speicherressourcen von Archivmedien
+
+M 2.258 Konsistente Indizierung von Dokumenten bei der Archivierung
+
+M 2.259 Einführung eines übergeordneten Dokumentenmanagements
+
+M 2.260 Regelmäßige Revision des Archivierungsprozesses
+
+M 2.261 Regelmäßige Marktbeobachtung von Archivsystemen
+
+M 2.262 Regelung der Nutzung von Archivsystemen
+
+M 2.263 Regelmäßige Aufbereitung von archivierten Datenbeständen
+
+M 2.264 Regelmäßige Aufbereitung von verschlüsselten Daten bei der Archivierung
+
+M 2.265 Geeigneter Einsatz digitaler Signaturen bei der Archivierung
+
+M 2.266 Regelmäßige Erneuerung technischer Archivsystem-Komponenten
+
+M 2.267 Planen des IIS-Einsatzes
+
+M 2.268 Festlegung einer IIS-Sicherheitsrichtlinie
+
+M 2.269 Planung des Einsatzes eines Apache Webservers
+
+M 2.270 Planung des SSL-Einsatzes beim Apache Webserver
+
+M 2.271 Festlegung einer Sicherheitsstrategie für den WWW-Zugang
+
+M 2.272 Einrichtung eines WWW-Redaktionsteams
+
+M 2.273 Zeitnahes Einspielen sicherheitsrelevanter Patches und Updates
+
+M 2.274 Vertretungsregelungen bei E-Mail-Nutzung
+
+M 2.275 Einrichtung funktionsbezogener E-Mailadressen
+
+M 2.276 Funktionsweise eines Routers
+
+M 2.277 Funktionsweise eines Switches
+
+M 2.278 Typische Einsatzszenarien von Routern und Switches
+
+M 2.279 Erstellung einer Sicherheitsrichtlinie für Router und Switches
+
+M 2.280 Kriterien für die Beschaffung und geeignete Auswahl von Routern und Switches
+
+M 2.281 Dokumentation der Systemkonfiguration von Routern und Switches
+
+M 2.282 Regelmäßige Kontrolle von Routern und Switches
+
+M 2.283 Software-Pflege auf Routern und Switches
+
+M 2.284 Sichere Außerbetriebnahme von Routern und Switches
+
+M 2.285 Festlegung von Standards für z/OS-Systemdefinitionen
+
+M 2.286 Planung und Einsatz von zSeries-Systemen
+
+M 2.287 Batch-Job-Planung für z/OS-Systeme
+
+M 2.288 Erstellung von Sicherheitsrichtlinien für z/OS-Systeme
+
+M 2.289 Einsatz restriktiver z/OS-Kennungen
+
+M 2.290 Einsatz von RACF-Exits
+
+M 2.291 Sicherheits-Berichtswesen und -Audits unter z/OS
+
+M 2.292 Überwachung von z/OS-Systemen
+
+M 2.293 Wartung von zSeries-Systemen
+
+M 2.294 Synchronisierung von z/OS-Passwörtern und RACF-Kommandos
+
+M 2.295 Systemverwaltung von z/OS-Systemen
+
+M 2.296 Grundsätzliche Überlegungen zu z/OS-Transaktionsmonitoren
+
+M 2.297 Deinstallation von z/OS-Systemen
+
+M 2.298 Verwaltung von Internet-Domainnamen
+
+M 2.299 Erstellung einer Sicherheitsrichtlinie für ein Sicherheitsgateway
+
+M 2.300 Sichere Außerbetriebnahme oder Ersatz von Komponenten eines Sicherheitsgateways
+
+M 2.301 Outsourcing des Sicherheitsgateway
+
+M 2.302 Sicherheitsgateways und Hochverfügbarkeit
+
+M 2.303 Festlegung einer Strategie für den Einsatz von PDAs
+
+M 2.304 Sicherheitsrichtlinien und Regelungen für die PDA-Nutzung
+
+M 2.305 Geeignete Auswahl von PDAs
+
+M 2.306 Verlustmeldung
+
+M 2.307 Geordnete Beendigung eines Outsourcing-Dienstleistungsverhältnisses
+
+M 2.308 Auszug aus Gebäuden
+
+M 2.309 Sicherheitsrichtlinien und Regelungen für die mobile IT-Nutzung
+
+M 2.310 Geeignete Auswahl von Laptops
+
+M 2.311 Planung von Schutzschränken
+
+M 2.312 Konzeption eines Schulungs- und Sensibilisierungsprogramms zur Informationssicherheit
+
+M 2.313 Sichere Anmeldung bei Internet-Diensten
+
+M 2.314 Verwendung von hochverfügbaren Architekturen für Server
+
+M 2.315 Planung des Servereinsatzes
+
+M 2.316 Festlegen einer Sicherheitsrichtlinie für einen allgemeinen Server
+
+M 2.317 Beschaffungskriterien für einen Server
+
+M 2.318 Sichere Installation eines Servers
+
+M 2.319 Migration eines Servers
+
+M 2.320 Geregelte Außerbetriebnahme eines Servers
+
+M 2.321 Planung des Einsatzes von Client-Server-Netzen
+
+M 2.322 Festlegen einer Sicherheitsrichtlinie für ein Client-Server-Netz
+
+M 2.323 Geregelte Außerbetriebnahme eines Clients
+
+M 2.324 Einführung von Windows XP und Windows Vista planen
+
+M 2.325 Planung der Sicherheitsrichtlinien von Windows XP und Windows Vista
+
+M 2.326 Planung der Windows XP und Windows Vista Gruppenrichtlinien
+
+M 2.327 Sicherheit beim Fernzugriff unter Windows XP und Windows Vista
+
+M 2.328 Einsatz von Windows XP auf mobilen Rechnern
+
+M 2.329 Einführung von Windows XP SP2
+
+M 2.330 Regelmäßige Prüfung der Windows XP und Windows Vista Sicherheitsrichtlinien und ihrer Umsetzung
+
+M 2.331 Planung von Besprechungs-, Veranstaltungs- und Schulungsräumen
+
+M 2.332 Einrichtung von Besprechungs-, Vortrags- und Schulungsräumen
+
+M 2.333 Sichere Nutzung von Besprechungs-, Vortrags- und Schulungsräumen
+
+M 2.334 Auswahl eines geeigneten Gebäudes
+
+M 2.335 Festlegung der Sicherheitsziele und -strategie
+
+M 2.336 Übernahme der Gesamtverantwortung für Informationssicherheit durch die Leitungsebene
+
+M 2.337 Integration der Informationssicherheit in organisationsweite Abläufe und Prozesse
+
+M 2.338 Erstellung von zielgruppengerechten Sicherheitsrichtlinien
+
+M 2.339 Wirtschaftlicher Einsatz von Ressourcen für Informationssicherheit
+
+M 2.340 Beachtung rechtlicher Rahmenbedingungen
+
+M 2.341 Planung des SAP Einsatzes
+
+M 2.342 Planung von SAP Berechtigungen
+
+M 2.343 Absicherung eines SAP Systems im Portal-Szenario
+
+M 2.344 Sicherer Betrieb von SAP Systemen im Internet
+
+M 2.345 Outsourcing eines SAP Systems
+
+M 2.346 Nutzung der SAP Dokumentation
+
+M 2.347 Regelmäßige Sicherheitsprüfungen für SAP Systeme
+
+M 2.348 Sicherheit beim Customizing von SAP Systemen
+
+M 2.349 Sicherheit bei der Software-Entwicklung für SAP Systeme
+
+M 2.350 Aussonderung von SAP Systemen
+
+M 2.351 Planung von Speichersystemen
+
+M 2.352 Erstellung einer Sicherheitsrichtlinie für NAS-Systeme
+
+M 2.353 Erstellung einer Sicherheitsrichtlinie für SAN-Systeme
+
+M 2.354 Einsatz einer hochverfügbaren SAN-Konfiguration
+
+M 2.355 Auswahl von Lieferanten für ein Speichersystem
+
+M 2.356 Vertragsgestaltung mit SAN-Dienstleistern
+
+M 2.357 Aufbau eines Administrationsnetzes für Speichersysteme
+
+M 2.358 Dokumentation der Systemeinstellungen von Speichersystemen
+
+M 2.359 Überwachung und Verwaltung von Speichersystemen
+
+M 2.360 Sicherheits-Audits und Berichtswesen bei Speichersystemen
+
+M 2.361 Deinstallation von Speichersystemen
+
+M 2.362 Auswahl eines geeigneten Speichersystems
+
+M 2.363 Schutz gegen SQL-Injection
+
+M 2.364 Planung der Administration für Windows Server 2003
+
+M 2.365 Planung der Systemüberwachung unter Windows Server 2003
+
+M 2.366 Nutzung von Sicherheitsvorlagen unter Windows Server 2003
+
+M 2.367 Einsatz von Kommandos und Skripten unter Windows Server 2003
+
+M 2.368 Umgang mit administrativen Vorlagen unter Windows Server 2003
+
+M 2.369 Regelmäßige sicherheitsrelevante Wartungsmaßnahmen eines Windows Server 2003
+
+M 2.370 Administration der Berechtigungen unter Windows Server 2003
+
+M 2.371 Geregelte Deaktivierung und Löschung ungenutzter Konten
+
+M 2.372 Planung des VoIP-Einsatzes
+
+M 2.373 Erstellung einer Sicherheitsrichtlinie für VoIP
+
+M 2.374 Umfang der Verschlüsselung von VoIP
+
+M 2.375 Geeignete Auswahl von VoIP-Systemen
+
+M 2.376 Trennung des Daten- und VoIP-Netzes
+
+M 2.377 Sichere Außerbetriebnahme von VoIP-Komponenten
+
+M 2.378 System-Entwicklung
+
+M 2.379 Software-Entwicklung durch Endbenutzer
+
+M 2.380 Ausnahmegenehmigungen
+
+M 2.381 Festlegung einer Strategie für die WLAN-Nutzung
+
+M 2.382 Erstellung einer Sicherheitsrichtlinie zur WLAN-Nutzung
+
+M 2.383 Auswahl eines geeigneten WLAN-Standards
+
+M 2.384 Auswahl geeigneter Kryptoverfahren für WLAN
+
+M 2.385 Geeignete Auswahl von WLAN-Komponenten
+
+M 2.386 Sorgfältige Planung notwendiger WLAN-Migrationsschritte
+
+M 2.387 Installation, Konfiguration und Betreuung eines WLANs durch Dritte
+
+M 2.388 Geeignetes WLAN-Schlüsselmanagement
+
+M 2.389 Sichere Nutzung von Hotspots
+
+M 2.390 Außerbetriebnahme von WLAN-Komponenten
+
+M 2.391 Frühzeitige Information des Brandschutzbeauftragten
+
+M 2.392 Sicherer Einsatz virtueller IT-Systeme
+
+M 2.393 Regelung des Informationsaustausches
+
+M 2.394 Prüfung elektrischer Anlagen
+
+M 2.395 Anforderungsanalyse für die IT-Verkabelung
+
+M 2.396 Vorgaben zur Dokumentation und Kennzeichnung der IT-Verkabelung
+
+M 2.397 Planung des Einsatzes von Druckern, Kopierern und Multifunktionsgeräten
+
+M 2.398 Benutzerrichtlinien für den Umgang mit Druckern, Kopierern und Multifunktionsgeräten
+
+M 2.399 Kriterien für die Beschaffung und geeignete Auswahl von Druckern, Kopierern und Multifunktionsgeräten
+
+M 2.400 Sichere Außerbetriebnahme von Druckern, Kopierern und Multifunktionsgeräten
+
+M 2.401 Umgang mit mobilen Datenträgern und Geräten
+
+M 2.402 Zurücksetzen von Passwörtern
+
+M 2.403 Planung des Einsatzes von Verzeichnisdiensten
+
+M 2.404 Erstellung eines Sicherheitskonzeptes für Verzeichnisdienste
+
+M 2.405 Erstellung einer Sicherheitsrichtlinie für den Einsatz von Verzeichnisdiensten
+
+M 2.406 Geeignete Auswahl von Komponenten für Verzeichnisdienste
+
+M 2.407 Planung der Administration von Verzeichnisdiensten
+
+M 2.408 Planung der Migration von Verzeichnisdiensten
+
+M 2.409 Planung der Partitionierung und Replikation im Verzeichnisdienst
+
+M 2.410 Geregelte Außerbetriebnahme eines Verzeichnisdienstes
+
+M 2.411 Trennung der Verwaltung von Diensten und Daten eines Active Directory
+
+M 2.412 Schutz der Authentisierung beim Einsatz von Active Directory
+
+M 2.413 Sicherer Einsatz von DNS für Active Directory
+
+M 2.414 Computer-Viren-Schutz für Domänen-Controller
+
+M 2.415 Durchführung einer VPN-Anforderungsanalyse
+
+M 2.416 Planung des VPN-Einsatzes
+
+M 2.417 Planung der technischen VPN-Realisierung
+
+M 2.418 Erstellung einer Sicherheitsrichtlinie zur VPN-Nutzung
+
+M 2.419 Geeignete Auswahl von VPN-Produkten
+
+M 2.420 Auswahl eines Trusted-VPN-Dienstleisters
+
+M 2.421 Planung des Patch- und Änderungsmanagementprozesses
+
+M 2.422 Umgang mit Änderungsanforderungen
+
+M 2.423 Festlegung der Verantwortlichkeiten für das Patch- und Änderungsmanagement
+
+M 2.424 Sicherheitsrichtlinie zum Einsatz von Patch- und Änderungsmanagement-Werkzeugen
+
+M 2.425 Geeignete Auswahl von Werkzeugen für das Patch- und Änderungsmanagement
+
+M 2.426 Integration des Patch- und Änderungsmanagements in die Geschäftsprozesse
+
+M 2.427 Abstimmung von Änderungsanforderungen
+
+M 2.428 Skalierbarkeit beim Patch- und Änderungsmanagement
+
+M 2.429 Erfolgsmessung von Änderungsanforderungen
+
+M 2.430 Sicherheitsrichtlinien und Regelungen für den Informationsschutz unterwegs
+
+M 2.431 Regelung der Vorgehensweise für die Löschung oder Vernichtung von Informationen
+
+M 2.432 Richtlinie für die Löschung und Vernichtung von Informationen
+
+M 2.433 Überblick über Methoden zur Löschung und Vernichtung von Daten
+
+M 2.434 Beschaffung geeigneter Geräte zur Löschung oder Vernichtung von Daten
+
+M 2.435 Auswahl geeigenter Aktenvernichter
+
+M 2.436 Vernichtung von Datenträgern durch externe Dienstleister
+
+M 2.437 Planung des Einsatzes eines Samba-Servers
+
+M 2.438 Sicherer Einsatz externer Programme auf einem Samba-Server
+
+M 2.439 Konzeption und Organisation des Anforderungsmanagements
+
+M 2.440 Geeignete Auswahl einer Windows Vista Version
+
+M 2.441 Kompatibilitätsprüfung neuer Software gegenüber Windows Vista
+
+M 2.442 Einsatz von Windows Vista auf mobilen Rechnern
+
+M 2.443 Einführung von Windows Vista SP1

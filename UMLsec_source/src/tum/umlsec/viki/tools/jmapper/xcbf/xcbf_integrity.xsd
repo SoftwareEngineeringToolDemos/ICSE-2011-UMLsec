@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="./tum/umlsec/viki/tools/jmapper/xcbf/xcbf_integrity_def.xsd" />
+	<xs:element name="BiometricSyntaxSets">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="biometricObjects"/>
+				<xs:element ref="integrityObjects"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

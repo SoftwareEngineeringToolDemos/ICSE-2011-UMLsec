@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="riskFinder-aid" id="{UMLID=_IZcsEKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder}" metadata="uml2-1.0" initialized="true" tag="10" key="323030373036323920756D6C736563" Shrink="true">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1" name="secReqHelper" location="714,686" size="109,27" timstampe="8" stereotype="" id="{UMLID=_J30ukKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/secReqHelper}" shortShow="true" runTimeClassModel="getSecReq(),dir,getContentFromSecReqFile(Ljava.io.File;Ljava.lang.String;),secReqHelper(),secReq">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_KkY5oqcoEd-oMpoVbA-nhw}" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="secReqHelper" location="10,0" id="{UMLID=_KdsbwKcoEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="713,670" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- secReqHelper" location="731,670" size="54,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="125,17" id="{UMLID=_KkY5o6coEd-oMpoVbA-nhw}" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="673,582" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1" name="UMLsecPattern" location="252,50" size="114,27" timstampe="8" stereotype="" id="{UMLID=_KA5LAKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/UMLsecPattern}" shortShow="true" runTimeClassModel="UMLsecPattern(),keywords,risks,solutions,riskFactor,UMLsecPattern(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I),getName(),getTyp(),getRiskFactor(),name,getRiks(),getSolutions(),typ,getKeywords()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.5/@sourceConnections.0" name="RepositoryHelper" location="541,581" size="125,27" timstampe="8" stereotype="" id="{UMLID=_JtaOUacoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/RepositoryHelper}" shortShow="true" runTimeClassModel="backupRepository(Ljava.io.File;),makeDelGui(),data,guihelper,makeNewDocument(),makeAddGui(),writeJdomToFile(Ljava.io.File;L/lib/jdom.org.jdom.Document;),getAllUMLsecPatterns(Ljava.io.File;),secReqHelper,filterKeywords(Ljava.lang.String;Ljava.lang.String;),getWordsFromString(Ljava.lang.String;),logger,dom2Jdom(Lorg.w3c.dom.Document;),resetRepository(Ljava.io.File;),resetAllVectors(),secReqWords,m5,allM,m6,m7,m1,m2,m3,m4,delSatzzeichenFrontEnd(Ljava.lang.String;),delPattern(Ljava.io.File;Ljava.lang.String;),getPatternList(Ljava.io.File;),allG,addUMLsecPatternToXml(Ljava.io.File;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),getAllWords(Ljava.lang.String;),writeToTempFile(Ljava.lang.String;),g2,g1,jdom2Dom(L/lib/jdom.org.jdom.Document;),RepositoryHelper(),g6,g5,g4,g3">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_Kf6CQacoEd-oMpoVbA-nhw}" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="3,27"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_KgX8UacoEd-oMpoVbA-nhw}" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,14" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_KizlQacoEd-oMpoVbA-nhw}" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="13,27" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,5"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KjkaQacoEd-oMpoVbA-nhw}" source="//@children.2" target="//@children.7" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,27" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="25,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_KkY5oKcoEd-oMpoVbA-nhw}" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.4/@children.2" label="//@children.2/@sourceConnections.4/@children.0" sourceEnd="//@children.2/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_KkY5oacoEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.4/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="530,585" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="guihelper" location="74,0" id="{UMLID=_KdmVIacoEd-oMpoVbA-nhw}" multiplicityLabel="//@children.2/@sourceConnections.4/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.4/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="327,684" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- guihelper" location="277,684" size="36,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.3 //@children.8/@sourceConnections.4" name="WortschatzHelper" location="56,50" size="126,27" timstampe="8" stereotype="" id="{UMLID=_J_33UacoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/WortschatzHelper}" shortShow="true" runTimeClassModel="WortschatzHelper(),coocResult,synResult,getCooccurrences(),getSynonyms(),askWortschatz(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.9/@sourceConnections.0" name="CheckerRiskfinder" location="658,406" size="131,27" timstampe="8" stereotype="" id="{UMLID=_JmEQMKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/CheckerRiskfinder}" shortShow="true" runTimeClassModel="checkedZargoFile,check(Ltum.umlsec.viki.framework.mdr.IMdrContainer;Ljava.util.Iterator;Ltum.umlsec.viki.framework.ITextOutput;),root,getCheckedZargoFile(),hitLimit,zargohelper,riskhelper,CheckerRiskfinder(),wortschatzOn,pgmlFile,xmiFile,domResult,candidatesMap,xmlhelper,graph,patternFounds,securityRepository,logger,doc,secReqOn,zargoFile">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_JvfR8acoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,27" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_Jwq9sacoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,26" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_JzTa8acoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.10" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,27"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_Jzm88acoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,27"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_J0ixFKcoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,27" id="{UMLID=_J0ixFacoEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.4/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="675,440" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="zargohelper" location="100,10" id="{UMLID=_JqW6UKcoEd-oMpoVbA-nhw}" multiplicityLabel="//@children.4/@sourceConnections.4/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.4/@children.2/@children.2" orderingLabel="//@children.4/@sourceConnections.4/@children.2/@children.0" scopeKind="1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="353,547" size="24,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="353,524" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ zargohelper" location="353,556" size="47,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_J0ixEKcoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,10" id="{UMLID=_J0ixEacoEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.5/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="647,423" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="riskhelper" location="94,26" id="{UMLID=_JqZWkacoEd-oMpoVbA-nhw}" multiplicityLabel="//@children.4/@sourceConnections.5/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.5/@children.2/@children.2" orderingLabel="//@children.4/@sourceConnections.5/@children.2/@children.0" scopeKind="1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="227,267" size="24,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="227,299" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ riskhelper" location="227,276" size="41,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_J0ixEqcoEd-oMpoVbA-nhw}" source="//@children.4" target="//@children.10" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="34,0" id="{UMLID=_J0ixE6coEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.6/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="699,390" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="xmlhelper" location="37,27" id="{UMLID=_JqrqcKcoEd-oMpoVbA-nhw}" multiplicityLabel="//@children.4/@sourceConnections.6/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.6/@children.2/@children.2" orderingLabel="//@children.4/@sourceConnections.6/@children.2/@children.0" scopeKind="1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="426,174" size="24,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="464,174" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ xmlhelper" location="409,183" size="41,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.2/@sourceConnections.4 //@children.7/@sourceConnections.0" name="GuiHelper" location="246,700" size="89,27" timstampe="8" stereotype="" id="{UMLID=_KdnjQKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/GuiHelper}" shortShow="true" runTimeClassModel="listM1,listM2,newPatternFrame(),listM5,listM6,getBsicontent(),listM3,delList,listM4,defaultListModelM1,defaultListModelM2,listM7,comboBox,defaultListModelG5,defaultListModelM7,defaultListModelG6,defaultListModelM6,defaultListModelM5,bsicontent,defaultListModelM4,delPatternFrame(),defaultListModelM3,logger,defaultListModelG3,defaultListModelG4,defaultListModelG1,defaultListModelG2,getKey(LCollection;I),textField,patternList,GuiHelper(),listG1,listG2,listG3,listG4,delListModel,listG5,listG6">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_K2FtoacoEd-oMpoVbA-nhw}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,27"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_K4ao4acoEd-oMpoVbA-nhw}" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.4/@sourceConnections.4" name="ZargoHelper" location="246,530" size="100,27" timstampe="8" stereotype="" id="{UMLID=_JqYvgKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/ZargoHelper}" shortShow="true" runTimeClassModel="buffer,zipFileName,zipFile,loadXMI(Ljava.io.File;Ltum.umlsec.viki.framework.ITextOutput;),getzipFileName(),saveZargo(Ljava.io.File;Ljava.io.File;Ljava.io.File;Ljava.io.File;),loadPgml(Ljava.io.File;Ltum.umlsec.viki.framework.ITextOutput;),ZargoHelper(),getSuffix(Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3 //@children.5/@sourceConnections.1" name="BsiContent" location="615,762" size="93,27" timstampe="8" stereotype="" id="{UMLID=_KfOs0KcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/BsiContent}" shortShow="true" runTimeClassModel="mDir,gDir,getGefaehrdungsKatalog(),getContentFromFile(Ljava.io.File;Ljava.lang.String;),getMassnahmenKatalog(),BsiContent(),gefaerdungsKatalog,maßnahmenKatalog">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_K5bVgKcoEd-oMpoVbA-nhw}" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="bsicontent" location="10,0" id="{UMLID=_K1DL0acoEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="614,746" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- bsicontent" location="632,746" size="39,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="89,17" id="{UMLID=_K5bVgacoEd-oMpoVbA-nhw}" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="342,701" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3 //@children.4/@sourceConnections.5" name="RiskHelper" location="126,266" size="94,27" timstampe="8" stereotype="" id="{UMLID=_JqbLwKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/RiskHelper}" shortShow="true" runTimeClassModel="actionState,stateMachines,RiskHelper(),root,getTransition(Ltum.umlsec.viki.framework.mdr.IMdrContainer;),askWortschatz(Ljava.lang.String;),getStopwords(),pseudoState,getPseudoStates(Ltum.umlsec.viki.framework.mdr.IMdrContainer;),actionstateClasses,getRiskByPattern(Ljava.lang.String;Lorg.omg.uml.behavioralelements.activitygraphs.ActionStateClass;Ltum.umlsec.viki.tools.riskFinder.UMLsecPattern;I),printTaggedValues(Lorg.omg.uml.behavioralelements.activitygraphs.ActivityGraph;Ltum.umlsec.viki.framework.ITextOutput;),wortschatz,notInBlacklist(Ljava.lang.String;Ljava.lang.String;),transition,printPseudoStates(Lorg.omg.uml.behavioralelements.statemachines.PseudostateClass;Ltum.umlsec.viki.framework.ITextOutput;),printTransition(Lorg.omg.uml.behavioralelements.statemachines.TransitionClass;Ltum.umlsec.viki.framework.ITextOutput;),pseudostateClasses,markRisksOnto(Lorg.w3c.dom.NodeList;Ljava.io.File;Ltum.umlsec.viki.framework.ITextOutput;Ljava.util.Iterator;Ljava.lang.String;),filterOn,printActivity(Lorg.omg.uml.behavioralelements.activitygraphs.ActionStateClass;Ltum.umlsec.viki.framework.ITextOutput;),getRiskByStrukture(Lorg.omg.uml.behavioralelements.activitygraphs.ActionStateClass;Lorg.w3c.dom.Document;),getActivity(Ltum.umlsec.viki.framework.mdr.IMdrContainer;),activityPackage,transitionClasses,insertInfoNodes(Ljava.io.File;Lorg.w3c.dom.NodeList;Ljava.io.File;Ljava.lang.String;Ltum.umlsec.viki.framework.ITextOutput;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KCMykKcoEd-oMpoVbA-nhw}" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,17" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KDvqsKcoEd-oMpoVbA-nhw}" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,27"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KF2jgacoEd-oMpoVbA-nhw}" source="//@children.8" target="//@children.10" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,17"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KGZWEacoEd-oMpoVbA-nhw}" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="92,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="27,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,27"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_KHBBIqcoEd-oMpoVbA-nhw}" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.4/@children.2" label="//@children.8/@sourceConnections.4/@children.0" sourceEnd="//@children.8/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,9" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,6" id="{UMLID=_KHBBI6coEd-oMpoVbA-nhw}" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.4/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="115,279" size="4,9" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="wortschatz" location="126,20" id="{UMLID=_J_3QQqcoEd-oMpoVbA-nhw}" multiplicityLabel="//@children.8/@sourceConnections.4/@children.2/@children.0" roleLabel="//@children.8/@sourceConnections.4/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="189,77" size="4,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- wortschatz" location="189,54" size="42,9" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RiskFinder" location="714,154" size="93,27" timstampe="5" stereotype="" id="{UMLID=_Kr5P0KcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/RiskFinder}" shortShow="true" runTimeClassModel="_textOutput,getConsoleCommands(),executeConsoleCommand(Ltum.umlsec.viki.framework.toolbase.CommandDescriptor;Ljava.util.Iterator;Ltum.umlsec.viki.framework.ITextOutput;Ltum.umlsec.viki.framework.ILogOutput;),getConsole(),getWeb(),commands,returnValue,getToolDescription(),getToolName(),initialiseConsole(),checker,CPID_GETINFO,getChecker(),modParameters,logger,getGui(),RiskFinder(),getBase(),initialiseBase(Ltum.umlsec.viki.framework.mdr.IMdrContainer;),mdrContainer">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KuwWkacoEd-oMpoVbA-nhw}" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="48,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,27" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2 //@children.4/@sourceConnections.6 //@children.8/@sourceConnections.2" name="XMLHelper" location="420,140" size="93,27" timstampe="8" stereotype="" id="{UMLID=_JqsRgKcoEd-oMpoVbA-nhw,JavaID=tum.umlsec.viki.tools.riskFinder/XMLHelper}" shortShow="true" runTimeClassModel="dom2File(Lorg.w3c.dom.NodeList;Ljava.io.File;),saveXMLFile(Ljava.io.File;Lorg.w3c.dom.Document;),getAttribute(Lorg.w3c.dom.NodeList;Ljava.lang.String;Ljava.lang.String;Ltum.umlsec.viki.framework.ITextOutput;),builder,alterAttribute(Lorg.w3c.dom.NodeList;Ljava.lang.String;Ltum.umlsec.viki.framework.ITextOutput;),getFigToAlter(Lorg.w3c.dom.NodeList;Ljava.lang.String;Ltum.umlsec.viki.framework.ITextOutput;),XMLHelper(),pgmlXMLParser(Ljava.io.File;),id,makeList(Ljava.lang.String;),fact,insertInfoNode(Lorg.w3c.dom.NodeList;Ljava.lang.String;Ltum.umlsec.viki.framework.ITextOutput;),addCommentToXMI(Ljava.io.File;Ljava.lang.String;),doc,logger,makeInfoNode(ILjava.lang.String;Ljava.lang.String;I),pgmlDOMPrinter(Lorg.w3c.dom.NodeList;Ljava.lang.String;Ltum.umlsec.viki.framework.ITextOutput;),parseXMLFile(Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_KImVgacoEd-oMpoVbA-nhw}" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="28,18" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,27" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="4" showScope="InPackage" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="252,56" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

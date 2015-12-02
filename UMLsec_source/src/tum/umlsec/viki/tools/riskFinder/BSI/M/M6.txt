@@ -1,0 +1,275 @@
+M 6 Notfallvorsorge 
+
+M 6.1 Erstellung einer Übersicht über Verfügbarkeitsanforderungen
+
+M 6.2 Notfall-Definition, Notfall-Verantwortlicher - entfallen
+
+M 6.3 Erstellung eines Notfall-Handbuches - entfallen
+
+M 6.4 Dokumentation der Kapazitätsanforderungen der IT-Anwendungen - entfallen
+
+M 6.5 Definition des eingeschränkten IT-Betriebs - entfallen
+
+M 6.6 Untersuchung interner und externer Ausweichmöglichkeiten - entfallen
+
+M 6.7 Regelung der Verantwortung im Notfall - entfallen
+
+M 6.8 Alarmierungsplan - entfallen
+
+M 6.9 Notfall-Pläne für ausgewählte Schadensereignisse - entfallen
+
+M 6.10 Notfall-Plan für DFÜ-Ausfall
+
+M 6.11 Erstellung eines Wiederanlaufplans - entfallen
+
+M 6.12 Durchführung von Notfallübungen - entfallen
+
+M 6.13 Erstellung eines Datensicherungsplans - entfallen
+
+M 6.14 Ersatzbeschaffungsplan - entfallen
+
+M 6.15 Lieferantenvereinbarungen - entfallen
+
+M 6.16 Abschließen von Versicherungen
+
+M 6.17 Alarmierungsplan und Brandschutzübungen
+
+M 6.18 Redundante Leitungsführung
+
+M 6.19 Datensicherung am PC - entfallen
+
+M 6.20 Geeignete Aufbewahrung der Backup-Datenträger
+
+M 6.21 Sicherungskopie der eingesetzten Software
+
+M 6.22 Sporadische Überprüfung auf Wiederherstellbarkeit von Datensicherungen
+
+M 6.23 Verhaltensregeln bei Auftreten von Schadprogrammen
+
+M 6.24 Erstellen eines Notfall-Bootmediums
+
+M 6.25 Regelmäßige Datensicherung der Server-Festplatte - entfallen
+
+M 6.26 Regelmäßige Datensicherung der TK-Anlagen-Konfigurationsdaten
+
+M 6.27 Sicheres Update des BIOS
+
+M 6.28 Vereinbarung über Lieferzeiten lebensnotwendiger TK-Baugruppen
+
+M 6.29 TK-Basisanschluss für Notrufe
+
+M 6.30 Katastrophenschaltung
+
+M 6.31 Verhaltensregeln nach Verlust der Systemintegrität
+
+M 6.32 Regelmäßige Datensicherung
+
+M 6.33 Entwicklung eines Datensicherungskonzepts
+
+M 6.34 Erhebung der Einflussfaktoren der Datensicherung
+
+M 6.35 Festlegung der Verfahrensweise für die Datensicherung
+
+M 6.36 Festlegung des Minimaldatensicherungskonzeptes
+
+M 6.37 Dokumentation der Datensicherung
+
+M 6.38 Sicherungskopie der übermittelten Daten
+
+M 6.39 Auflistung von Händleradressen zur Fax-Wiederbeschaffung
+
+M 6.40 Regelmäßige Batterieprüfung/-wechsel
+
+M 6.41 Übungen zur Datenrekonstruktion
+
+M 6.42 Erstellung von Rettungsdisketten für Windows NT - entfallen
+
+M 6.43 Einsatz redundanter Windows-Server
+
+M 6.44 Datensicherung unter Windows NT - entfallen
+
+M 6.45 Datensicherung unter Windows 95 - entfallen
+
+M 6.46 Erstellung von Rettungsdisketten für Windows 95 - entfallen
+
+M 6.47 Datensicherung bei der Telearbeit
+
+M 6.48 Verhaltensregeln nach Verlust der Datenbankintegrität
+
+M 6.49 Datensicherung einer Datenbank
+
+M 6.50 Archivierung von Datenbeständen
+
+M 6.51 Wiederherstellung einer Datenbank
+
+M 6.52 Regelmäßige Sicherung der Konfigurationsdaten aktiver Netzkomponenten
+
+M 6.53 Redundante Auslegung der Netzkomponenten
+
+M 6.54 Verhaltensregeln nach Verlust der Netzintegrität
+
+M 6.55 Reduzierung der Wiederanlaufzeit für Novell Netware Server
+
+M 6.56 Datensicherung bei Einsatz kryptographischer Verfahren
+
+M 6.57 Erstellen eines Notfallplans für den Ausfall des Managementsystems
+
+M 6.58 Etablierung einer Vorgehensweise zur Behandlung von Sicherheitsvorfällen
+
+M 6.59 Festlegung von Verantwortlichkeiten bei Sicherheitsvorfällen
+
+M 6.60 Festlegung von Meldewegen für Sicherheitsvorfälle
+
+M 6.61 Eskalationsstrategie für Sicherheitsvorfälle
+
+M 6.62 Festlegung von Prioritäten für die Behandlung von Sicherheitsvorfällen
+
+M 6.63 Untersuchung und Bewertung eines Sicherheitsvorfalls - entfallen
+
+M 6.64 Behebung von Sicherheitsvorfällen
+
+M 6.65 Benachrichtigung betroffener Stellen bei Sicherheitsvorfällen
+
+M 6.66 Nachbereitung von Sicherheitsvorfällen
+
+M 6.67 Einsatz von Detektionsmaßnahmen für Sicherheitsvorfälle
+
+M 6.68 Effizienzprüfung des Managementsystems zur Behandlung von Sicherheitsvorfällen
+
+M 6.69 Notfallvorsorge und Ausfallsicherheit bei Faxservern
+
+M 6.70 Erstellen eines Notfallplans für den Ausfall des RAS-Systems - entfallen
+
+M 6.71 Datensicherung bei mobiler Nutzung des IT-Systems
+
+M 6.72 Ausfallvorsorge bei Mobiltelefonen
+
+M 6.73 Erstellen eines Notfallplans für den Ausfall des Lotus Notes-Systems
+
+M 6.74 Notfallarchiv
+
+M 6.75 Redundante Kommunikationsverbindungen
+
+M 6.76 Erstellen eines Notfallplans für den Ausfall von Windows-Systemen
+
+M 6.77 Erstellung von Rettungsdisketten für Windows 2000
+
+M 6.78 Datensicherung unter Windows Clients
+
+M 6.79 Datensicherung beim Einsatz von Internet-PCs
+
+M 6.80 Erstellen eines Notfallplans für den Ausfall eines Novell eDirectory Verzeichnisdienstes - entfallen
+
+M 6.81 Erstellen von Datensicherungen für Novell eDirectory
+
+M 6.82 Erstellen eines Notfallplans für den Ausfall von Exchange-Systemen
+
+M 6.83 Notfallvorsorge beim Outsourcing
+
+M 6.84 Regelmäßige Datensicherung der System- und Archivdaten
+
+M 6.85 Erstellung eines Notfallplans für den Ausfall des IIS
+
+M 6.86 Schutz vor schädlichem Code auf dem IIS
+
+M 6.87 Datensicherung auf dem IIS
+
+M 6.88 Erstellen eines Notfallplans für den Webserver
+
+M 6.89 Notfallvorsorge für einen Apache-Webserver
+
+M 6.90 Datensicherung und Archivierung von E-Mails
+
+M 6.91 Datensicherung und Recovery bei Routern und Switches
+
+M 6.92 Notfallvorsorge bei Routern und Switches
+
+M 6.93 Notfallvorsorge für z/OS-Systeme
+
+M 6.94 Notfallvorsorge bei Sicherheitsgateways
+
+M 6.95 Ausfallvorsorge und Datensicherung bei PDAs
+
+M 6.96 Notfallvorsorge für einen Server
+
+M 6.97 Notfallvorsorge für SAP Systeme
+
+M 6.98 Notfallvorsorge für Speichersysteme
+
+M 6.99 Regelmäßige Sicherung wichtiger Systemkomponenten für Windows Server 2003
+
+M 6.100 Erstellung eines Notfallplans für den Ausfall von VoIP
+
+M 6.101 Datensicherung bei VoIP
+
+M 6.102 Verhaltensregeln bei WLAN-Sicherheitsvorfällen
+
+M 6.103 Redundanzen für die Primärverkabelung
+
+M 6.104 Redundanzen für die Gebäudeverkabelung
+
+M 6.105 Notfallfallvorsorge bei Druckern, Kopierern und Multifunktionsgeräten
+
+M 6.106 Erstellung eines Notfallplans für den Ausfall eines Verzeichnisdienstes
+
+M 6.107 Erstellung von Datensicherungen für Verzeichnisdienste
+
+M 6.108 Datensicherung für Domänen-Controller
+
+M 6.109 Notfallplan für den Ausfall eines VPNs
+
+M 6.110 Festlegung des Geltungsbereichs und der Notfallmanagementstrategie
+
+M 6.111 Leitlinie zum Notfallmanagement und Übernahme der Gesamtverantwortung durch die Leitungsebene
+
+M 6.112 Aufbau einer geeigneten Organisationsstruktur für das Notfallmanagement
+
+M 6.113 Bereitstellung angemessener Ressourcen für das Notfallmanagement
+
+M 6.114 Erstellung eines Notfallkonzepts
+
+M 6.115 Integration der Mitarbeiter in den Notfallmanagement-Prozess
+
+M 6.116 Integration von Notfallmanagement in organisationsweite Abläufe und Prozesse
+
+M 6.117 Tests und Notfallübungen
+
+M 6.118 Überprüfung und Aufrechterhaltung der Notfallmaßnahmen
+
+M 6.119 Dokumentation im Notfallmanagement-Prozess
+
+M 6.120 Überprüfung und Steuerung des Notfallmanagement-Systems
+
+M 6.121 Erstellung einer Richtlinie zur Behandlung von Sicherheitsvorfällen
+
+M 6.122 Definition eines Sicherheitsvorfalls
+
+M 6.123 Einrichtung eines Expertenteams für die Behandlung von Sicherheitsvorfällen
+
+M 6.124 Festlegung der Schnittstellen der Sicherheitsvorfallbehandlung zur Störungs- und Fehlerbehebung
+
+M 6.125 Einrichtung einer zentralen Kontaktstelle für die Meldung von Sicherheitsvorfällen
+
+M 6.126 Einführung in die Computer-Forensik
+
+M 6.127 Etablierung von Beweissicherungsmaßnahmen bei Sicherheitsvorfällen
+
+M 6.128 Schulung an Beweismittelsicherungswerkzeugen
+
+M 6.129 Schulung der Mitarbeiter des Service Desk zur Behandlung von Sicherheitsvorfällen
+
+M 6.130 Erkennen und Erfassen von Sicherheitsvorfällen
+
+M 6.131 Qualifizieren und Bewerten von Sicherheitsvorfällen
+
+M 6.132 Eindämmen der Auswirkung von Sicherheitsvorfällen
+
+M 6.133 Wiederherstellung der Betriebsumgebung nach Sicherheitsvorfällen
+
+M 6.134 Dokumentation von Sicherheitsvorfällen
+
+M 6.135 Regelmäßige Sicherung wichtiger Systemkomponenten eines Samba-Servers
+
+M 6.136 Erstellen eines Notfallplans für den Ausfall eines Samba-Servers
+
+M 6.137 Treuhänderische Hinterlegung (Escrow)
