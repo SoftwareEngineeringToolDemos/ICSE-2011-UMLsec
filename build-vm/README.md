@@ -35,9 +35,12 @@ How to create
 3. download VirtualBox fomr [this website](https://www.virtualbox.org/wiki/Downloads)
 4. install VirtualBox
 5. download all files from [build-vm folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec/tree/master/build-vm), to where you want to install VM.
-6. (If in windows system)Open a command window
-7. Enter to the folder where the downloaded files are (VM directory).
-8. execute command "__vagrant up__"
+6. also download the folder[UMLsec](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec/tree/master/UMLsec/UMLsec)
+7. put build-vm folder and UMLsec folder in same directory. 
+(suggestion: directly download whole zip of the repo)
+8. (If in windows system)Open a command window
+9. Enter to the build-vm folder, where the vagrant files are (VM directory).
+10. execute command "__vagrant up__"
 
 Note:
 ------
