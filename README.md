@@ -36,9 +36,8 @@ The source code is © by the members of the UMLsec tool group 2001-2014 and avai
 
 In this repository, for UMLsec you will find:
 * :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec) (available)
-* :white_check_mark: [The original tool source code and binary](https://www-secse.cs.tu-dortmund.de/jj/umlsectool/current/) (available)
 * :white_check_mark: [Executable file (binary)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec/tree/master/UMLsec/UMLsec) (available)
-* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/a/ncsu.edu/file/d/0B4_LvpxG3aQBNGRJdUZCOHFBUGc/view?usp=sharing) (available)
+* :x: Virtual machine containing tool (not available) (not available)
 
 This repository was constructed by [Yi-Chun Chen (RimiChen)](https://github.com/RimiChen) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
